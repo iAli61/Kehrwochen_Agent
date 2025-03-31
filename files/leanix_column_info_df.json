@@ -1,0 +1,3237 @@
+[
+    {
+        "name":"ID",
+        "description":"ID",
+        "unique_values":[
+            "e5655738-7069-4500-934b-bb369848e92b",
+            "302523e1-a8a2-4f40-8c06-eb179924a0e7",
+            "acd8d0ec-4d68-4ee8-b27b-88e3cd16b758",
+            "d903092e-a553-494a-a1b2-f19b8ef8800c",
+            "7d0d9c4c-b80f-40d5-be2d-7bae1a84ea57",
+            "ea2c0615-f615-458b-b8cf-172f6c831bea",
+            "294516e6-d4e3-4d6c-9c89-562c97f5f066",
+            "7202f2b9-1808-435e-964b-72582966d10f",
+            "f2a54f0b-a3fa-4a30-bb77-526d41c281fd",
+            "4a72a6b3-d42c-4aa7-92ec-6dc5d8556056",
+            "... and more"
+        ],
+        "count_unique":98
+    },
+    {
+        "name":"Type",
+        "description":"Type",
+        "unique_values":[
+            "Application"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"Name",
+        "description":"Name",
+        "unique_values":[
+            "A4298-C AC - Auction Cash",
+            "A4303-C ChngNot - Change Notices",
+            "A4308-C DFAS - Dealer Financial Analysis System",
+            "A4311-C DRS - Dealer Reserve System",
+            "A4318-C EFT Car - Electronic Funds Transfer - Car",
+            "A4338-C MCL - Moodys Credit Lens",
+            "A4365-C DMP - Document Management Portal",
+            "A4378-C TMU - VITU Title Management System",
+            "A4388-C CapLoans - CapLoans System",
+            "A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit)",
+            "... and more"
+        ],
+        "count_unique":98
+    },
+    {
+        "name":"Display Name",
+        "description":"Display Name",
+        "unique_values":[
+            "A4298-C AC - Auction Cash 1.0",
+            "A4303-C ChngNot - Change Notices 1.0",
+            "A4308-C DFAS - Dealer Financial Analysis System 1.0",
+            "A4311-C DRS - Dealer Reserve System 1.0",
+            "A4318-C EFT Car - Electronic Funds Transfer - Car 1.0",
+            "A4338-C MCL - Moodys Credit Lens 1.0",
+            "A4365-C DMP - Document Management Portal 1.0",
+            "A4378-C TMU - VITU Title Management System",
+            "A4388-C CapLoans - CapLoans System 1.0",
+            "A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0",
+            "... and more"
+        ],
+        "count_unique":98
+    },
+    {
+        "name":"Short Name",
+        "description":"Short Name",
+        "unique_values":[
+            "A4298-C AC",
+            "A4303-C ChngNot",
+            "A4308-C DFAS",
+            "A4311-C DRS",
+            "A4318-C EFT Car",
+            "A4338-C MCL",
+            "A4365-C DMP",
+            "A4378-C TMU",
+            "A4388-C CapLoans",
+            "A4392-C A RORAC",
+            "... and more"
+        ],
+        "count_unique":97
+    },
+    {
+        "name":"Version",
+        "description":"Version",
+        "unique_values":[
+            "1.0",
+            "all",
+            "8.5.56",
+            "3.8",
+            "1.7",
+            "6.4",
+            "8.35.9304e",
+            "2024.0.1_1",
+            "7.3",
+            "9.0",
+            "... and more"
+        ],
+        "count_unique":42
+    },
+    {
+        "name":"APP ID",
+        "description":"APP ID",
+        "unique_values":[
+            "APP-10226",
+            "APP-10309",
+            "APP-10411",
+            "APP-10417",
+            "APP-10473",
+            "APP-10689",
+            "APP-10436",
+            "APP-10914",
+            "APP-10286",
+            "APP-10195",
+            "... and more"
+        ],
+        "count_unique":98
+    },
+    {
+        "name":"Subtype",
+        "description":"Subtype",
+        "unique_values":[
+            "mbgCatBusinessApp",
+            "mbgCatTechnicalApp",
+            "mbgCatIDPApp",
+            "mgbCatExternalApp"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":" Application Type",
+        "description":" Application Type",
+        "unique_values":[
+            "central",
+            "local",
+            "variant",
+            "productLike"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Usage Type",
+        "description":"Usage Type",
+        "unique_values":[
+            "standard",
+            "referenceChild",
+            "referenceMaster"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Description",
+        "description":"Description",
+        "unique_values":[
+            "Receive proceeds for the various MB brand auction houses and sending it to the portfolio systems and General Ledger.\n\n- Receives sales files from JPM Chase Bank\n- Validate sales detail\n- Create ledger entries\n- Transmit funds to various portfolio systems\n- Report sales activity and suspended funds\n\n* Mainframe application\n\nA.O. 09.14.20",
+            "The Change Notice system is an application that allows a controlled method to make financial adjustments to both retail (car & truck) posting to SAP,  and wholesale  customer accounts.\n\nProvides business centers with easy access to retail and  wholesale customer accounts to perform changes. Change Notice is used to make adjustments to the Wholesale System based on VIN # (Wholesale System) and dealer number. . \n\nAO - 2020-09-08",
+            "DFAS \u2013 The Dealer Financial Analysis System (DFAS) is an interactive mainframe system which is used to process dealer financial statements on a monthly basis in Canada and USA.  Most financial statements, entered by the dealers via MB USA, or MB Canada (CDK), are processed through DFAS.  Additionally, business users may manually enter financial statements which are not received from MB USA or MB Canada.  This input is subject to over 200 edits.  The system will spread, analyze, and report any exceptions.  DFAS also retrieves exposure and Audit information. Dealer Credit then reviews the exceptions and obtains explanations where necessary.  This system significantly adds to Dealer Credit\u2019s ability to control and analyze dealer statements, as well as the overall financial relationship MBFS has with the dealer.  DFAS is also used as input to the Credit Shell system.\n\n* Mainframe application",
+            "This system provides month end dealer activity reports\/statement and balances for individual dealers. Incoming transactions include dealer commission, adjustments, EFT activity, CN activity and new business payouts\n\nThe system creates a EFT file with net debit\/credit amounts at month end..\nIf not a EFT dealer, check requests are issued to SAP at month end\n\nDealer Reserve Statements are generated for Car; MB US and MB Canada, and MB Mexico \n\n* Mainframe application\n\nA.O. 09.14.20",
+            "This system allows the dealers to advance and\/or make payments for, Wholesale, Cap Loan,  Retail and Lease along with other cash management activities using Electronic Funds Transferring. Car only\n\nLease \/ Retail \/ Wholesale: Retail",
+            "Moody\u2019s CreditLens is a financial analysis tool intended to assist in credit adjudication. In addition, Moody\u2019s QUIQ Spread provides for the automated spreading of financial statements.",
+            "DMP manages the paper tracking starting for new business document packets that arrive in the MBFS mailroom and are scanned and stored into the Content Manager system.  The MBFS mailroom then ships the paper documents to Iron Mountain for offsite storage.  DMP also manages the paper tracking for all customer correspondence.  Other images are received from our print vendors are also stored in Content Manger and tracked via DMP.  Images stored in Content Manager are then used to provide service to our customers",
+            "Title Management applications provide the necessary functions to service MBFS titles.  TMU is the main application that is used to track both paper and electronic titles.  \nTMU provides users the ability to track a titles change of location, name or address. TMU users can view the titles account information, current status, image, history and current location. \nTMU users can release and request both paper and electronic titles.   The Title History application provides a titles history to FAW, Collection and Doc Management Portal Users.  \nTitle Deficiency is an application used to follow-up on missing titles.      The TMU Reporting application provides reporting on Title Management activities.  \nReports include tracking title requests from Auction Houses, Cashiering and internal users.  Other reports include Title Status and user productivity.",
+            "The CapLoans System (CapLoans) is a Java front end with mainframe back end application. This system is used to administer, control, and monitor all capital loan activities at Mercedes-Benz Financial Services.  The system processes standard capital loans, credit lines, dealer equipment loans, construction loans, and real estate loans. It is used by Dealer Credit and Accounting personnel at Mercedes-Benz Financial Services Business Centers and Head Quarter.  The Business Center personnel performs processing loan request, transferring funds, setting up billing rules, applying all payments, and obtaining payoff quotes. Dealer Credit department reviews the loan request, and approves or denies the request. Dealer Credit personnel is also responsible for its day-to-day administration.",
+            "Provide a leading indicator for consumer and commercial leas and retail  portfolio Return on Risk Adjusted Credit (RORAC) on new acquisitions.\n\nAcquisition RORAC MTD and ME reporting\n\nPerformance Measurement \n\nManagement Reporting, Internal Reporting\n\nDecision Support",
+            "... and more"
+        ],
+        "count_unique":97
+    },
+    {
+        "name":"Description local",
+        "description":"Description local",
+        "unique_values":[
+            "CapLoans is used to administer, control, and monitor all capital loan activities at Mercedes-Benz Financial Services.",
+            "MF",
+            "Versandabwicklung im Achsversand Mettingen und Steuerung und Verwaltung des automatischen Hochregallagers",
+            "Synergy CHANGE (oder Telelogic CHANGE oder IBM CHANGE) ist ein Werkzeug f\u00fcr das Software Change Management.\nEs ist ein Web-basierendes System zur Erfassung und Verfolgung von Change Requests (CR) sowohl f\u00fcr die Software-(Weiter-)entwicklung als auch f\u00fcr die Wartung. \nChange Requests werden darin in einem Webformular oder automatisch erfasst und mit Hilfe eines definierten \u00c4nderungsprozesses (Change Lifecycle) bearbeitet und verwaltet.\nDer \u00c4nderungsprozess selbst ist spezifisch f\u00fcr die Mercedes-Benz-Bank konfiguriert und wird einheitlich eingesetzt.\nAuf dem Server wird zentral der Bestand und die Historie der Softwareversionen in einem Repository, bestehend aus einen Dateiarchiv und Datenbank mit Metadaten, gespeichert.\nAnwender arbeiten mit einer Clientanwendung, die als Standalone Programm oder in einer integrierten Softwareentwicklungsumgebung (IDE) die methodischen Richtlinien des \u00c4nderungsprozesses einh\u00e4lt (Berechtigungen, Rollen, Aufgaben). \u00c4nderungen an einem Softwaresystem k\u00f6nnen nur mit einer entsprechenden Berechtigung und einem konkreten Arbeitsauftrag (Task), der von einem Auftraggeber erstellt und zugewiesen wurde, durchgef\u00fchrt werden.\nDas System ist mandantenf\u00e4hig d.h. die Change Requests sind in voneinander getrennten Instanzen f\u00fcr einzelne Zielsysteme der Bank enthalten.\nMit Hilfe von Synergy CHANGE ist es m\u00f6glich, jederzeit einen aktuellen \u00dcberblick \u00fcber den Stand der Entwicklung oder der Wartung zu erstellen durch Auswertungen und Reports auf unterschiedlichen Ebenen (Status, Fortschritt, Regression, Charts, Management Report, Enterprise Reports etc.) sowohl eines einzelnen (Software-)Systems als auch als Gesamt\u00fcberblick \u00fcber alle Softwaresysteme.",
+            "System zur Kontenf\u00fchrung im Leasingbereich \/ Bilanzinfo nach IFRS, Oracle-DB auf MBFPP0006. Keine Anwendung, sondern DB die Informationen als Datei an den Anwender weitergibt \n\nF\u00fcr den Bilanzausweis nach IFRS l\u00e4uft jeden Monat ein Batch, der Vertr\u00e4ge und Bewegungen aus LEAS verarbeitet und den Vertragssaldo von Finance Leases und Operate Leases berechnet. Die Ergebnisse werden in einer Datenbank gespeichert. \nAuf dieser Datenbasis werden verschiedene Auswertungen f\u00fcr eine Vielzahl an Fachbereichen gefahren.",
+            "OCS - Noleggio lungo termine",
+            "Statistisches Auswertetool von QS-Daten f\u00fcr den Fertigungsprozess\n\n- Das Modul Prozessanalyse dient zur statistischen Beurteilung von Fertigungsprozessen. \n- Das Modul Stichprobenanalyse ist zur Ermittlung der Kurzzeitf\u00e4higkeit \/ Maschinenf\u00e4higkeit gedacht.",
+            "VeDoc contains the construction level of all of produced vehicles of Mercedes-Benz, Maybach, smart, Setra and Aggregate since 1986 (historicized); follower of FDOK system\n- Emargination of all of produced vehicles and aggregates\n- Access to the construction level of each of vehicles via user-friendly interfaces (internal clients + repair shops)\n- Updating data because of changes in construction levels (generally changes in electricity\/eletronic and parts with obligatory documentation requirement)",
+            "Syst\u00e8me de gestion des points de vente et des propositions pour les propositions et les devis de cr\u00e9dit et de location. Solution PMS pour l'\u00e9valuation des risques de chaque proposition. Fonctionnalit\u00e9s d'activation de contrat pour d\u00e9clencher un nouveau contrat dans Phoenix"
+        ],
+        "count_unique":9
+    },
+    {
+        "name":"Number of Users",
+        "description":"Number of Users",
+        "unique_values":[
+            3.0,
+            100.0,
+            400.0,
+            3000.0,
+            2500.0,
+            40.0,
+            50.0,
+            10.0,
+            500.0,
+            750000.0,
+            "... and more"
+        ],
+        "count_unique":44
+    },
+    {
+        "name":"pIT APP ID",
+        "description":"pIT APP ID",
+        "unique_values":[
+            "APP-10226",
+            "APP-10309",
+            "APP-10411",
+            "APP-10417",
+            "APP-10473",
+            "APP-10689",
+            "APP-10436",
+            "APP-10914",
+            "APP-10286",
+            "APP-10195",
+            "... and more"
+        ],
+        "count_unique":97
+    },
+    {
+        "name":"pIT ICTO ID",
+        "description":"pIT ICTO ID",
+        "unique_values":[
+            "ICTO-6879",
+            "ICTO-6960",
+            "ICTO-7067",
+            "ICTO-7073",
+            "ICTO-7144",
+            "ICTO-7360",
+            "ICTO-7094",
+            "ICTO-7584",
+            "ICTO-6937",
+            "ICTO-6851",
+            "... and more"
+        ],
+        "count_unique":95
+    },
+    {
+        "name":"Lifecycle: Current Lifecycle",
+        "description":"Lifecycle: Current Lifecycle",
+        "unique_values":[
+            "endOfLife",
+            "active",
+            "phaseOut",
+            "plan"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Lifecycle: Plan",
+        "description":"Lifecycle: Plan",
+        "unique_values":[
+            "2021-05-23T00:00:00.000",
+            "2008-10-13T00:00:00.000",
+            "2024-10-11T00:00:00.000",
+            "2008-01-02T00:00:00.000"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Lifecycle: Phase in",
+        "description":"Lifecycle: Phase in",
+        "unique_values":[
+            "2021-05-23T00:00:00.000",
+            "2008-10-13T00:00:00.000",
+            "2008-01-02T00:00:00.000"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Lifecycle: Active",
+        "description":"Lifecycle: Active",
+        "unique_values":[
+            "1992-01-15T00:00:00.000",
+            "1996-01-01T00:00:00.000",
+            "2000-01-01T00:00:00.000",
+            "2005-02-01T00:00:00.000",
+            "1995-08-01T00:00:00.000",
+            "2021-03-14T00:00:00.000",
+            "2002-04-19T00:00:00.000",
+            "2001-04-11T00:00:00.000",
+            "2003-12-15T00:00:00.000",
+            "2002-08-01T00:00:00.000",
+            "... and more"
+        ],
+        "count_unique":64
+    },
+    {
+        "name":"Lifecycle: Phase out",
+        "description":"Lifecycle: Phase out",
+        "unique_values":[
+            "2024-09-02T00:00:00.000",
+            "2024-09-30T00:00:00.000",
+            "2024-05-31T00:00:00.000",
+            "2024-04-18T00:00:00.000",
+            "2023-03-01T00:00:00.000",
+            "2024-04-19T00:00:00.000",
+            "2024-11-01T00:00:00.000",
+            "2023-02-28T00:00:00.000",
+            "2024-09-15T00:00:00.000",
+            "2025-12-31T00:00:00.000",
+            "... and more"
+        ],
+        "count_unique":25
+    },
+    {
+        "name":"Lifecycle: End of life",
+        "description":"Lifecycle: End of life",
+        "unique_values":[
+            "2024-09-02T00:00:00.000",
+            "2024-09-30T00:00:00.000",
+            "2024-05-31T00:00:00.000",
+            "2024-04-18T00:00:00.000",
+            "2028-12-25T00:00:00.000",
+            "2024-05-01T00:00:00.000",
+            "2027-12-25T00:00:00.000",
+            "2027-12-31T00:00:00.000",
+            "2027-01-03T00:00:00.000",
+            "2024-04-02T00:00:00.000",
+            "... and more"
+        ],
+        "count_unique":24
+    },
+    {
+        "name":"Quality Seal",
+        "description":"Quality Seal",
+        "unique_values":[
+            "BROKEN_QUALITY_SEAL",
+            "APPROVED",
+            "DRAFT"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Technical Owner Org",
+        "description":"Technical Owner Org",
+        "unique_values":[
+            "(ITM\/AL) Portfolio Systems and Digital Transformations",
+            "(ITM\/AS) Digital Customer & Business Solutions",
+            "(ITS\/ES) Global Key Sales Processes",
+            "ITS\/OE - Malaysia (View)",
+            "(ITO\/CI) Intralogistics",
+            "(MBB\/ID) PoS & Digitalization",
+            "ITM\/TG - South Africa FS (View)",
+            "ITM\/TG - Spain (View)",
+            "ITM\/TG - Australia FS (View)",
+            "ITM\/TG - Benelux (View)",
+            "... and more"
+        ],
+        "count_unique":33
+    },
+    {
+        "name":"RL1",
+        "description":"RL1",
+        "unique_values":[
+            "MB"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"RL2",
+        "description":"RL2",
+        "unique_values":[
+            "COB",
+            "M (fictive)"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"RL3",
+        "description":"RL3",
+        "unique_values":[
+            "IT",
+            "M"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"RL4",
+        "description":"RL4",
+        "unique_values":[
+            "ITM",
+            "ITS",
+            "ITO (fictive)",
+            "M\/C",
+            "ITH (fictive)",
+            "ITV",
+            "ITT",
+            "T4P (fictive)"
+        ],
+        "count_unique":8
+    },
+    {
+        "name":"RL5",
+        "description":"RL5",
+        "unique_values":[
+            "ITM\/A",
+            "ITS\/E",
+            "ITS\/O",
+            "ITO\/CI",
+            "MBB",
+            "ITM\/T",
+            "ITS\/G",
+            "ITS\/N",
+            "ITH\/I",
+            "ITV\/D",
+            "... and more"
+        ],
+        "count_unique":14
+    },
+    {
+        "name":"RL6",
+        "description":"RL6",
+        "unique_values":[
+            "ITM\/AL",
+            "ITM\/AS",
+            "ITS\/ES",
+            "ITS\/OE MY (View)",
+            "MBB\/O",
+            "ITM\/TG",
+            "ITM\/TM",
+            "ITS\/GL",
+            "ITS\/NU",
+            "ITS\/EU",
+            "... and more"
+        ],
+        "count_unique":14
+    },
+    {
+        "name":"RL7",
+        "description":"RL7",
+        "unique_values":[
+            "MBB\/I",
+            "ITM\/TG SA (View)",
+            "ITM\/TG ES (View)",
+            "ITM\/TG AUS(View)",
+            "ITM\/TG BNL View",
+            "ITM\/TG FR (View)",
+            "ITM\/TG AT (View)",
+            "ITM\/TG SEDK View",
+            "ITM\/TG CZ (View)",
+            "ITM\/TG IT (View)",
+            "... and more"
+        ],
+        "count_unique":13
+    },
+    {
+        "name":"RL8",
+        "description":"RL8",
+        "unique_values":[
+            "MBB\/ID",
+            "MBB\/IS",
+            "MBB\/IB"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"RL9",
+        "description":"RL9",
+        "unique_values":[
+            "MBB\/IBA (View)"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"RL10",
+        "description":"RL10",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Business Owner Org",
+        "description":"Business Owner Org",
+        "unique_values":[
+            "(FS\/A-CAN) Finance & Controlling Canada;(FS\/ON) Finance Operations MBM North America",
+            "(FS\/ON) Finance Operations MBM North America",
+            "(M\/O-NA) OPS\/Credit OPS Hub Americas;(M\/O-NA-CA) Operations & Credit Operations Canada",
+            "(FS\/ON) Finance Operations MBM North America;(M\/M-NA-MX) Mercedes-Benz Financial Services Mexico;(M\/O-NA-CA) Operations & Credit Operations Canada",
+            "(M\/M-NA-SM) Marketing & Sales Support;(M\/O-NA-CA) Operations & Credit Operations Canada",
+            "(M\/O-NA-BC) Business Center;(M\/O-NA-CA) Operations & Credit Operations Canada;(M\/O-NA-TO) OPS Transformation One OPS",
+            "(ITM\/AS) Digital Customer & Business Solutions;(M\/M-NA-MX) Mercedes-Benz Financial Services Mexico",
+            "(M\/O-NA-TO) OPS Transformation One OPS",
+            "(FS\/A) Data Insights & Advanced Analytics;(FS\/A-CAN) Finance & Controlling Canada;(M\/M-NA-MX) Mercedes-Benz Financial Services Mexico",
+            "(M\/M-NA-MX) Mercedes-Benz Financial Services Mexico;(M\/O-NA-CA) Operations & Credit Operations Canada;(M\/O-NA-TO) OPS Transformation One OPS",
+            "... and more"
+        ],
+        "count_unique":63
+    },
+    {
+        "name":"External Sync",
+        "description":"External Sync",
+        "unique_values":[
+            "sn",
+            "none"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"ServiceNow ID Deeplink",
+        "description":"ServiceNow ID Deeplink",
+        "unique_values":[
+            "247c5f9d9397ad9095fc786efaba101c",
+            "330cdbd94793e9d48b86baba116d4301",
+            "44822fd147576dd4c27255d4316d438f",
+            "bfc12fd9479329104eada31c016d435e",
+            "37a38cc4dbf20910fc100febd3961934",
+            "4420275547d36dd4c27255d4316d43e4",
+            "d23fdb1d471fa5d4024d8e39116d4304",
+            "ec22ab1d4757e9d48b86baba116d43fc",
+            "92b1e5711b268d14a3d362406b4bcb36",
+            "c1226bd5479fa5d4024d8e39116d431d",
+            "... and more"
+        ],
+        "count_unique":78
+    },
+    {
+        "name":"Budget ID",
+        "description":"Budget ID",
+        "unique_values":[
+            "HY2",
+            "ID7",
+            "IJ8",
+            "IK2",
+            "IN9",
+            "JA5",
+            "IL4",
+            "JO5",
+            "IB9",
+            "HW5",
+            "... and more"
+        ],
+        "count_unique":95
+    },
+    {
+        "name":"Refstr",
+        "description":"Refstr",
+        "unique_values":[
+            "76-10226-0",
+            "76-10309-0",
+            "76-10411-0",
+            "76-10417-0",
+            "76-10473-0",
+            "76-10689-0",
+            "76-10436-0",
+            "76-10914-0",
+            "76-10286-0",
+            "76-10195-0",
+            "... and more"
+        ],
+        "count_unique":97
+    },
+    {
+        "name":"myStructure ID",
+        "description":"myStructure ID",
+        "unique_values":[
+            "DKPC01QIJ",
+            "FMT65NIYC",
+            "10926",
+            "FG6KNADF7",
+            "841",
+            "HES9WEL1R",
+            "F6ULMT60N",
+            "ER4M0I9UB",
+            "FEI8Z4YG7",
+            "FB4R0U51W",
+            "... and more"
+        ],
+        "count_unique":32
+    },
+    {
+        "name":"ServiceNow ID",
+        "description":"ServiceNow ID",
+        "unique_values":[
+            "247c5f9d9397ad9095fc786efaba101c",
+            "330cdbd94793e9d48b86baba116d4301",
+            "44822fd147576dd4c27255d4316d438f",
+            "bfc12fd9479329104eada31c016d435e",
+            "37a38cc4dbf20910fc100febd3961934",
+            "4420275547d36dd4c27255d4316d43e4",
+            "d23fdb1d471fa5d4024d8e39116d4304",
+            "ec22ab1d4757e9d48b86baba116d43fc",
+            "92b1e5711b268d14a3d362406b4bcb36",
+            "c1226bd5479fa5d4024d8e39116d431d",
+            "... and more"
+        ],
+        "count_unique":77
+    },
+    {
+        "name":"APP ID String",
+        "description":"APP ID String",
+        "unique_values":[
+            "APP-10226",
+            "APP-10309",
+            "APP-10411",
+            "APP-10417",
+            "APP-10473",
+            "APP-10689",
+            "APP-10436",
+            "APP-10914",
+            "APP-10286",
+            "APP-10195",
+            "... and more"
+        ],
+        "count_unique":98
+    },
+    {
+        "name":"Action Completed",
+        "description":"Action Completed",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"SControl",
+        "description":"SControl",
+        "unique_values":[
+            "no"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"Quality Seal broken Date",
+        "description":"Quality Seal broken Date",
+        "unique_values":[
+            "2025-03-18",
+            "2025-03-07",
+            "2025-02-07",
+            "2025-03-12",
+            "2025-03-11",
+            "2025-03-19",
+            "2025-02-13",
+            "2025-03-01",
+            "2025-01-30",
+            "2025-03-16",
+            "... and more"
+        ],
+        "count_unique":17
+    },
+    {
+        "name":"Successors",
+        "description":"Successors",
+        "unique_values":[
+            "A1184-C WFS AMS - Wholesale Finance Software 8.55.225.0",
+            "A1193-C VIPS 2.0 - Vehicle Incentive Pricing & Subsidy 1.0",
+            "A1224 OneOPS - One global process (AMS) Default",
+            "SAP.ERP - MBM GALA - Global  Accounting Landscape 1.0",
+            "FSCSS meHome - Customer Self-Services in me Home for MBM;OneWeb x",
+            "CreditPlatform on Azure 1.0;DS-Portal - Deutsches Schutzportal 2025;MBLD HawkAI 8.8.1;myFinance-MBB Default",
+            "CRD - Credit Risk Digital Global 4.0.3.112.0_G;CRD - Credit Risk Digital MBBank 4.0.2;GPD - Global Product Database 1.6.1",
+            "CreditPlatform on Azure 1.0;myFinance-MBB Default",
+            "CONTACT Auto - CONTACT Automotive 2024.1;myFinance-MBB Default",
+            "Empty",
+            "... and more"
+        ],
+        "count_unique":18
+    },
+    {
+        "name":"Predecessors",
+        "description":"Predecessors",
+        "unique_values":[
+            "Empty"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"Product Category",
+        "description":"Product Category",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Catalog ID",
+        "description":"Catalog ID",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Archer ID (n)",
+        "description":"Archer ID (n)",
+        "unique_values":[
+            "INFO-11020101",
+            "INFO-11020104",
+            "INFO-5183008",
+            "INFO-11020103",
+            "INFO-5222466",
+            "INFO-19981828",
+            "INFO-5085445; INFO-5077038",
+            "INFO-10611515",
+            "INFO-11500676",
+            "INFO-5076454",
+            "... and more"
+        ],
+        "count_unique":76
+    },
+    {
+        "name":"Valid Until",
+        "description":"Valid Until",
+        "unique_values":[
+            "2027-08-11",
+            "2027-08-12",
+            "2026-03-04",
+            "2026-06-09",
+            "2029-10-02",
+            "2025-08-13",
+            "2027-06-29",
+            "2027-09-01",
+            "2030-02-02",
+            "2025-03-04",
+            "... and more"
+        ],
+        "count_unique":68
+    },
+    {
+        "name":"Archer Status",
+        "description":"Archer Status",
+        "unique_values":[
+            "active"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"Confidentiality",
+        "description":"Confidentiality",
+        "unique_values":[
+            "confidential",
+            "internal"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Protection Level",
+        "description":"Protection Level",
+        "unique_values":[
+            "enhanced",
+            "basic"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Integrity",
+        "description":"Integrity",
+        "unique_values":[
+            "integrityCritical",
+            "integrityStandard"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Availability",
+        "description":"Availability",
+        "unique_values":[
+            "availabilityStandard",
+            "availabilityCritical"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Research & Development",
+        "description":"Research & Development",
+        "unique_values":[
+            "no"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"High Priority Application",
+        "description":"High Priority Application",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Date of classification",
+        "description":"Date of classification",
+        "unique_values":[
+            "2022-08-12",
+            "2022-08-13",
+            "2021-03-05",
+            "2021-06-10",
+            "2024-10-03",
+            "2020-08-14",
+            "2022-06-30",
+            "2022-09-02",
+            "2025-02-03",
+            "2020-03-05",
+            "... and more"
+        ],
+        "count_unique":87
+    },
+    {
+        "name":"Validity Period",
+        "description":"Validity Period",
+        "unique_values":[
+            "5 years",
+            "5 year(s)",
+            "2 years",
+            "1 year",
+            "3 years"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Continuity Critical",
+        "description":"Continuity Critical",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Personal Data",
+        "description":"Personal Data",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Sensitive Personal Data",
+        "description":"Sensitive Personal Data",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Application Protection is compliant with IC Protection Requirements",
+        "description":"Application Protection is compliant with IC Protection Requirements",
+        "unique_values":[
+            "yes"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"App-Confidentiality",
+        "description":"App-Confidentiality",
+        "unique_values":[
+            "confidential",
+            "internal"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"App-Integrity",
+        "description":"App-Integrity",
+        "unique_values":[
+            "critical",
+            "standard"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"App-Availability",
+        "description":"App-Availability",
+        "unique_values":[
+            "standard",
+            "critical"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"App-Continuity Critical",
+        "description":"App-Continuity Critical",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"App-RTO - Recovery Time Objective",
+        "description":"App-RTO - Recovery Time Objective",
+        "unique_values":[
+            48.0,
+            12.0,
+            3.0,
+            24.0,
+            5.0,
+            8.0,
+            16.0
+        ],
+        "count_unique":7
+    },
+    {
+        "name":"App-RPO - Recovery Point Objective",
+        "description":"App-RPO - Recovery Point Objective",
+        "unique_values":[
+            "0",
+            "0.25",
+            "0,5",
+            "24",
+            "48",
+            "5",
+            "4",
+            "12",
+            "8",
+            "0.3"
+        ],
+        "count_unique":10
+    },
+    {
+        "name":"Start URL",
+        "description":"Start URL",
+        "unique_values":[
+            "https:\/\/changenotice-p.fs.corpintra.net\/changenotice",
+            "Prod: \nhttps:\/\/mbadvantage.i.daimler.com\/",
+            "http:\/\/caploans-p.fs.corpintra.net\/caploans",
+            "https:\/\/dfonlinepay.com\/paymentAdmin\/",
+            "https:\/\/www.mbfs.com\/home",
+            "https:\/\/mbadvantage.i.mercedes-benz.com",
+            "http:\/\/www.ai.onedatascan.com\/ (Third party vendor URL)",
+            "https:\/\/dealerprofile-p.fs.corpintra.net\/dealerprofile",
+            "Mainframe Application",
+            "https:\/\/ecreditpro-p.fs.corpintra.net\/ecp",
+            "... and more"
+        ],
+        "count_unique":40
+    },
+    {
+        "name":"Internet Facing",
+        "description":"Internet Facing",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Digital Service (German IT Security Act)",
+        "description":"Digital Service (German IT Security Act)",
+        "unique_values":[
+            "no"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"Export Control Relevance",
+        "description":"Export Control Relevance",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Information Security Comment",
+        "description":"Information Security Comment",
+        "unique_values":[
+            "Maintenance Schedule:  Sun 12:00 AM to 05:30 AM",
+            "Maintenance schedule Sun 12:00 - 5:30 am",
+            "Maintenance window (Intermittent availability): Sunday 12 AM to 6 AM EST\n\nBatch cycle (System unavailable): Business days 9 PM to 12 AM EST",
+            "Maintenance Window:  Sunday 00:00 - 08:00AM",
+            "Batch Cycle (Intermittent availability) : Mon thru Fri 9:15 to 9:45 PM daily\n\nInfrastructure maintenance window: Sunday 12 AM to 6 AM.",
+            "There is no maintenance window for MBFS.com - 24x7x365",
+            "Maintenance Schedule:  Sunday 12:00 AM to 05:30 AM",
+            "Maintenance Schedule:  12:00 - 5:30 am",
+            "As per Signed Information Classification Document, RTO is 72 Hrs and RPO is 24 Hrs. \nMaintenance schedule is on Sunday 12 AM - 6 AM.",
+            "No specific downtime. \nMaintenance - Every Sunday 12:00 AM to 06:00 AM EST",
+            "... and more"
+        ],
+        "count_unique":38
+    },
+    {
+        "name":"Backup implementation according to RISE Standard \u201cSection 8.13 Information backup\u201d",
+        "description":"Backup implementation according to RISE Standard \u201cSection 8.13 Information backup\u201d",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"RTO - Recovery Time Objective",
+        "description":"RTO - Recovery Time Objective",
+        "unique_values":[
+            "48",
+            "20",
+            "120",
+            "12",
+            "3",
+            "kein RTO in der SBA da Umbau",
+            "24",
+            "5",
+            "8",
+            "6",
+            "... and more"
+        ],
+        "count_unique":13
+    },
+    {
+        "name":"RPO - Recovery Point Objective",
+        "description":"RPO - Recovery Point Objective",
+        "unique_values":[
+            "0",
+            "4",
+            "120",
+            "24",
+            "0.25",
+            "kein RPO in der SBA da Umbau",
+            "48",
+            "5",
+            "12",
+            "8",
+            "... and more"
+        ],
+        "count_unique":11
+    },
+    {
+        "name":"RAA",
+        "description":"RAA",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Date of RAA",
+        "description":"Date of RAA",
+        "unique_values":[
+            "2015-06-30",
+            "2009-02-15",
+            "2021-12-31",
+            "2016-06-05",
+            "2015-11-27",
+            "2022-03-01"
+        ],
+        "count_unique":6
+    },
+    {
+        "name":"Security Profile",
+        "description":"Security Profile",
+        "unique_values":[
+            "notAvailable",
+            "available",
+            "notApplicable"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Date of Security Profile",
+        "description":"Date of Security Profile",
+        "unique_values":[
+            "2021-03-10",
+            "2021-02-25",
+            "2020-10-14",
+            "2021-08-20",
+            "2025-01-30",
+            "2022-02-04",
+            "2021-01-29",
+            "2018-10-24",
+            "2022-05-08",
+            "2024-04-30",
+            "... and more"
+        ],
+        "count_unique":45
+    },
+    {
+        "name":"EPA Vulnerability Status",
+        "description":"EPA Vulnerability Status",
+        "unique_values":[
+            "medium",
+            "notAssessed",
+            "high",
+            "noFindings",
+            "low",
+            "critical"
+        ],
+        "count_unique":6
+    },
+    {
+        "name":"SCAS",
+        "description":"SCAS",
+        "unique_values":[
+            "scasReport",
+            "confirmationStatement",
+            "outOfScope"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Date of SCAS",
+        "description":"Date of SCAS",
+        "unique_values":[
+            "2021-04-27",
+            "2024-04-23",
+            "2020-09-18",
+            "2023-12-14",
+            "2023-03-13",
+            "2021-11-09",
+            "2024-09-23",
+            "2022-04-11",
+            "2022-03-04",
+            "2023-07-19",
+            "... and more"
+        ],
+        "count_unique":23
+    },
+    {
+        "name":"SCAS Vulnerability Status",
+        "description":"SCAS Vulnerability Status",
+        "unique_values":[
+            "critical",
+            "high",
+            "medium",
+            "notAssessed",
+            "noFindings",
+            "notRelevant"
+        ],
+        "count_unique":6
+    },
+    {
+        "name":"ASI Assurance Level",
+        "description":"ASI Assurance Level",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ASI Maturity Score",
+        "description":"ASI Maturity Score",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Data \/ Commands \/ Connected Services",
+        "description":"Data \/ Commands \/ Connected Services",
+        "unique_values":[
+            "no"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"Secure Communication \/ Data Management",
+        "description":"Secure Communication \/ Data Management",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Testing \/ Diagnostics \/ Updates \/ Documentation",
+        "description":"Testing \/ Diagnostics \/ Updates \/ Documentation",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Vehicle IT Security Relevancy",
+        "description":"Vehicle IT Security Relevancy",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"User Scope",
+        "description":"User Scope",
+        "unique_values":[
+            "emplAndRetirees;techUsers",
+            "externalsContractors;partnerPool;techUsers",
+            "emplAndRetirees",
+            "techUsers",
+            "externalsContractors;partnerPool;dealer",
+            "externalsContractors;partnerPool;emplAndRetirees",
+            "emplAndRetirees;externalsContractors;partnerPool",
+            "emplAndRetirees;externalsContractors;partnerPool;endConsumers;techUsers",
+            "emplAndRetirees;externalsContractors;partnerPool;techUsers",
+            "others",
+            "... and more"
+        ],
+        "count_unique":26
+    },
+    {
+        "name":"User Scope comment",
+        "description":"User Scope comment",
+        "unique_values":[
+            "3 Employees - Accounting FH",
+            "75 Wholesale US and Canada Admin users, APAK users - FH, FW, and MB Can\n24 -Accounting - Primarily FH; 1 - App dynamics",
+            "Dealers (2700) login via MBAdvantage; Employees\/ALFA Accounting Business users login via EOS; Contractors login via EOS",
+            "250 users using EFT Mainframe (Dealer Funding Specialists, Accounting Specialists and Wholesale Administration Team.\n\n5 IT support personnel; 2500",
+            "40 - Account Receivable Team, Agents,",
+            "Accounting Manager\t1\nApprover\t\t                9\nBusiness Sr. Manager\t2\nInquiry\t\t\t      33\nLoan Originator\t      26\nPayment Processor\t      15\nSystem Administrator\t4\nUser Admin\t\t        6\nIT Support personnel      5",
+            "No UI; No UI; No UI",
+            "100 - Accounting, Agents, Collections employee\/cotractors users\n395 - GC Services, Agents, multiple locations (FW, FH, El Paso, Copper Cove, etc,)\n5 - IT employees\/contractors; 100 - Accounting, Agents, Collections employee\/cotractors users\n395 - GC Services, Agents, multiple locations (FW, FH, El Paso, Copper Cove, etc,)\n5 - IT employees\/contractors; End user interfacing is via mbfs.com & commercialvans website.",
+            "5000 Employee Lease Participants; 500 - Customer service - Ft. Worth\n100 - Customer service - Toronto; 750,000 - US & Canada",
+            "Employees\/Accounting Business users login via EOS",
+            "... and more"
+        ],
+        "count_unique":34
+    },
+    {
+        "name":"Is the Global Authentification Service (GAS) used?",
+        "description":"Is the Global Authentification Service (GAS) used?",
+        "unique_values":[
+            "no",
+            "yes",
+            "notApplicable",
+            "noButRiskProcessEnabled"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Use of Global Authentification Service \u2013 Comment",
+        "description":"Use of Global Authentification Service \u2013 Comment",
+        "unique_values":[
+            "EUC resides on Regional File Share. Single Sign on based on Active Directory authentication enables access to File Share. MFA not available for File share access",
+            "Active Directory",
+            "CIAM NextGen",
+            "Funding Clearing system is a reporting system, no users have access however all user groups can access the report (mainframe - EOS)..\n\nA. O.\n02.10.21",
+            "No User Access is allowed to this application, it is functioning as a print server for a MF print job",
+            "Mainframe app. Per Mark Romanowski IT security template",
+            "OIDC solution. DIAM\/CIAM.",
+            "GAS OIDC",
+            "System was sundowned in August, 2024.",
+            "System was sundowned in September, 2024.",
+            "... and more"
+        ],
+        "count_unique":35
+    },
+    {
+        "name":"Is a regular synchronisation with the Corporate Directory scheduled and up and running?",
+        "description":"Is a regular synchronisation with the Corporate Directory scheduled and up and running?",
+        "unique_values":[
+            "no",
+            "directAccessLdapBased",
+            "dataExtractFileBased",
+            "noButRiskProcessEnabled",
+            "manualProcess"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Regular synchronisation with Corporate Directory \u2013 Comment",
+        "description":"Regular synchronisation with Corporate Directory \u2013 Comment",
+        "unique_values":[
+            "AC is internal mainframe application",
+            "Direct Access (LDAP based)",
+            "No User Access is allowed to this application, it is functioning as a print server for a MF print job",
+            "Mainframe app. Per Mark Romanowski IT security template",
+            "EUC resides on Regional File Share and depend on Access management of File Share. EUC can only be accessed after logon to client PC which authenticates against Global Active Directory",
+            "System was sundowned in August, 2024.",
+            "System was sundowned in September, 2024.",
+            "Mainframe Mapping CD<->RACF",
+            "RSK-12491015",
+            "via Omada",
+            "... and more"
+        ],
+        "count_unique":24
+    },
+    {
+        "name":"Is a regular synchronisation with another global system scheduled and up and running?",
+        "description":"Is a regular synchronisation with another global system scheduled and up and running?",
+        "unique_values":[
+            "synchronizedMainframe",
+            "no",
+            "notApplicable",
+            "globalActiveDirectory",
+            "iagToolIdmTool",
+            "sapIdentityManagement",
+            "noButRiskProcessEnabled"
+        ],
+        "count_unique":7
+    },
+    {
+        "name":"Is Multi-factor authentication (MFA) used?",
+        "description":"Is Multi-factor authentication (MFA) used?",
+        "unique_values":[
+            "otherSecurityLevelEqualSolution",
+            "no",
+            "globalGasMfa",
+            "noRiskProcessEnabled",
+            "localOwnMFASolution"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Multi-factor authentication \u2013 Comment",
+        "description":"Multi-factor authentication \u2013 Comment",
+        "unique_values":[
+            "Mainframe application",
+            "RSK-14197692",
+            "No Required User Access to this application is not allowed",
+            "OIDC\/GEMS",
+            "Enabled on 8\/27\/2023",
+            "System was sundowned in August, 2024.",
+            "RAA in place in Archer",
+            "System was sundowned in September, 2024.",
+            "Use of 802.1x",
+            "Its a backend service",
+            "... and more"
+        ],
+        "count_unique":45
+    },
+    {
+        "name":"Are all requirements for privileged IT accounts fulfilled?",
+        "description":"Are all requirements for privileged IT accounts fulfilled?",
+        "unique_values":[
+            "notApplicable",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Privileged IT accounts \u2013 Comment",
+        "description":"Privileged IT accounts \u2013 Comment",
+        "unique_values":[
+            "EUC access and authorization is based on File Share access. No Privileged IT accounts exist for File shares. EUC operates with Standard User access",
+            "System was sundowned in August, 2024.",
+            "System was sundowned in September, 2024.",
+            "MBB specific-process",
+            "there are no priviledge accounts",
+            "App has no  privileged IT accounts",
+            "There are no privileged accounts",
+            "No privileged IT accounts.",
+            "No priviledged IT Accounts used in Application (only technical users)",
+            "epu6 Defaults",
+            "... and more"
+        ],
+        "count_unique":14
+    },
+    {
+        "name":"Are all password requirements fullfilled?",
+        "description":"Are all password requirements fullfilled?",
+        "unique_values":[
+            "notApplicable",
+            "yes",
+            "no",
+            "riskProcessEnabled"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Password requirements \u2013 Comment",
+        "description":"Password requirements \u2013 Comment",
+        "unique_values":[
+            "EUC resides on Regional File Share. Single Sign on based on Active Directory credentials. Password requirements for Active Directory applies",
+            "RSK-14197692",
+            "OIDC Standards",
+            "System was sundowned in August, 2024.",
+            "System was sundowned in September, 2024.",
+            "EUC access and authorization is based on File Share access. No Privileged IT accounts exist for File shares. EUC operates with Standard User access",
+            "RSK-16372542",
+            "Benutzerpassw\u00f6rter analog ZMBF-Requirements",
+            "MBB specific-process",
+            "According to AD \/EPU6 requirements. nach Abstimmung mit U.M\u00fcller passt, da ePU6",
+            "... and more"
+        ],
+        "count_unique":15
+    },
+    {
+        "name":"Which systems\/services are used in the authorization process?",
+        "description":"Which systems\/services are used in the authorization process?",
+        "unique_values":[
+            "mainframe",
+            "otherApprovedUAM",
+            "other",
+            "adminNet",
+            "internalInApplication",
+            "sapidm",
+            "none",
+            "alice",
+            "bema",
+            "riskProcessEnabled",
+            "... and more"
+        ],
+        "count_unique":15
+    },
+    {
+        "name":"Authorization systems\/services \u2013 Comment",
+        "description":"Authorization systems\/services \u2013 Comment",
+        "unique_values":[
+            "ACM Access Control Manager",
+            "Data access within EUC is managed by source system defined authorization concept",
+            "System was sundowned in August, 2024.",
+            "System was sundowned in September, 2024.",
+            "Switched from GEMS to Alice",
+            "BASIS\/BSV",
+            "Manual Process --> Authentifizierung Enduser\/Kunde \/ MBB-Internet-Anwendung: Pin, Super Pin, AuftragskennwortAuthentifizierung; MBB-Mitarbeiter \/ MBB-Intranet-Anwendung: Authentifizierung \u00fcber IAM-Omada und Kerberos",
+            "Authorization process carried out by the local application called SPA (APP-9750)",
+            "Manual Process",
+            "MBB specific-process",
+            "... and more"
+        ],
+        "count_unique":30
+    },
+    {
+        "name":"Is an access and authorization concept defined?",
+        "description":"Is an access and authorization concept defined?",
+        "unique_values":[
+            "yes",
+            "notApplicable",
+            "no",
+            "riskProcessEnabled"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Access and authorization concept \u2013 Comment",
+        "description":"Access and authorization concept \u2013 Comment",
+        "unique_values":[
+            "Access and Authorization concept defined for File Share and is aligned with Business Roles managed in Access Control Manager (ACM)",
+            "System was sundowned in August, 2024.",
+            "System was sundowned in September, 2024.",
+            "MBB specific-process",
+            "Berechtigungskonzept is in place",
+            "only technical users",
+            "Each market have their own authorisation concept for their own users, whereas the Third Party CGI, have a long standing  authorisation concept limited to 3  role: Security, Operator & App Support. These are predominantly read only on production.",
+            "It is a printing server: no user has access to the application.",
+            "DB is no longer used and only being kept for Diesel litigation\/NERO purposes",
+            "Roles Defined by Business"
+        ],
+        "count_unique":10
+    },
+    {
+        "name":"Are processes for on-\/offboarding users implemented?",
+        "description":"Are processes for on-\/offboarding users implemented?",
+        "unique_values":[
+            "yes",
+            "notApplicable",
+            "no"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"On-\/offboarding processes \u2013 Comment",
+        "description":"On-\/offboarding processes \u2013 Comment",
+        "unique_values":[
+            "On\/Off boarding processes for EUC is dependent on File Share access management using Access Control Manager (ACM). User ID is synced with Active Directory",
+            "System was sundowned in August, 2024.",
+            "System was sundowned in September, 2024.",
+            "MBB specific-process",
+            "BEMA\/OMADA",
+            "Not part of the application",
+            "for internal users only",
+            "No human users, therefore no need for On-\/Offboarding process. On-\/Offboarding only in scope of technical user management",
+            "only technical Users",
+            "Only TSO and FSO are Users",
+            "... and more"
+        ],
+        "count_unique":14
+    },
+    {
+        "name":"Are access rights regularly and traceably reviewed?",
+        "description":"Are access rights regularly and traceably reviewed?",
+        "unique_values":[
+            "notApplicable",
+            "yes",
+            "no"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Reviews of access rights \u2013 Comment",
+        "description":"Reviews of access rights \u2013 Comment",
+        "unique_values":[
+            "Information classification for File Share is Confidential. User Access review for EUC is dependent on File Share semi-annual access review through ACM",
+            "Yes",
+            "System was sundowned in August, 2024.",
+            "System was sundowned in September, 2024.",
+            "MBB specific-process",
+            "By TSO\/FSO",
+            "yes, it will be checked every 6 month.",
+            "regularly review done by technical owner",
+            "reference: Berechtigungskonzept",
+            "Conducted by CMM and by Markets.",
+            "... and more"
+        ],
+        "count_unique":14
+    },
+    {
+        "name":"Is a deletion concept by the Business Owner available?",
+        "description":"Is a deletion concept by the Business Owner available?",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Type of deletion routine in operation",
+        "description":"Type of deletion routine in operation",
+        "unique_values":[
+            "manual",
+            "automated",
+            "none",
+            "semiAutomated"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Is it possible to export personal data in a machine-readable format?",
+        "description":"Is it possible to export personal data in a machine-readable format?",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Which export format is used?",
+        "description":"Which export format is used?",
+        "unique_values":[
+            "csv",
+            "pdf",
+            "xml",
+            "others"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Comment File Format",
+        "description":"Comment File Format",
+        "unique_values":[
+            "Direct export in Excel and elsewhere possible",
+            "print",
+            "PDF is also possible",
+            "no data stored",
+            "What ever you want. We are IP",
+            "BLOB from Database",
+            "xls, csv, txt, html",
+            "XML can also be used",
+            "need to be validated by DPC",
+            "Text SQL Format",
+            "... and more"
+        ],
+        "count_unique":16
+    },
+    {
+        "name":"Which scope of the personal data can be exported?",
+        "description":"Which scope of the personal data can be exported?",
+        "unique_values":[
+            "all",
+            "partial"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Has the personal data been entered by the users themselves?",
+        "description":"Has the personal data been entered by the users themselves?",
+        "unique_values":[
+            "no",
+            "yes",
+            "partially"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Is data archiving necessary?",
+        "description":"Is data archiving necessary?",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Is automated archiving routine in operation? (direct or via archiving application)",
+        "description":"Is automated archiving routine in operation? (direct or via archiving application)",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Is archiving concept by Business Owner available?",
+        "description":"Is archiving concept by Business Owner available?",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"CDC Souce Onboarded",
+        "description":"CDC Souce Onboarded",
+        "unique_values":[
+            "yes"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"CDC ID",
+        "description":"CDC ID",
+        "unique_values":[
+            "595",
+            "597",
+            "415",
+            "627",
+            "74",
+            "574",
+            "624",
+            "176;177;39;441;45",
+            "248",
+            "532",
+            "... and more"
+        ],
+        "count_unique":17
+    },
+    {
+        "name":"CDC Type",
+        "description":"CDC Type",
+        "unique_values":[
+            "technical",
+            "virtual"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"CDC URL",
+        "description":"CDC URL",
+        "unique_values":[
+            "https:\/\/cdc.app.corpintra.net\/data\/595",
+            "https:\/\/cdc.app.corpintra.net\/data\/597",
+            "https:\/\/cdc.app.corpintra.net\/data\/415",
+            "https:\/\/cdc.app.corpintra.net\/data\/627",
+            "https:\/\/cdc.app.corpintra.net\/data\/74",
+            "https:\/\/cdc.app.corpintra.net\/data\/574",
+            "https:\/\/cdc.app.corpintra.net\/data\/624",
+            "https:\/\/cdc.app.corpintra.net\/data\/441",
+            "https:\/\/cdc.app.corpintra.net\/data\/248",
+            "https:\/\/cdc.app.corpintra.net\/data\/532",
+            "... and more"
+        ],
+        "count_unique":17
+    },
+    {
+        "name":"TOM Doc exists",
+        "description":"TOM Doc exists",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Procedure exists",
+        "description":"Procedure exists",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"GDPR Relevance",
+        "description":"GDPR Relevance",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"How is this Application affected by the EU Digital Service Act?",
+        "description":"How is this Application affected by the EU Digital Service Act?",
+        "unique_values":[
+            "no",
+            "yes",
+            "onlinePlatform"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Project Name",
+        "description":"Project Name",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Project Description",
+        "description":"Project Description",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"App Name",
+        "description":"App Name",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Operating System",
+        "description":"Operating System",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Mobile App Familiy",
+        "description":"Mobile App Familiy",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Application Listing for Usage",
+        "description":"Application Listing for Usage",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Prepare",
+        "description":"Prepare",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"LDSSO",
+        "description":"LDSSO",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Brand Design",
+        "description":"Brand Design",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Security",
+        "description":"Security",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"FOSS",
+        "description":"FOSS",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Legal",
+        "description":"Legal",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Data Protection",
+        "description":"Data Protection",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Location of Stored Data",
+        "description":"Location of Stored Data",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ICS Relevance",
+        "description":"ICS Relevance",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Comment",
+        "description":"Comment",
+        "unique_values":[
+            "04.07.17: According to Feedback J. Russo and D. Comiaianni: Application accounting relevant but not in ICS (Full) Scope. Flag has not been set.\n\nT. Koch, ITT\/Q, 19.09. According to Feedback from D. Comiaianni change flag to \"true\"",
+            "24.04.15: update opreation (YM)",
+            "17.07.17: Confirmed by BU and IT\n24.04.2015: update operation (YM)",
+            "17.07.17: Confirmed by BU and IT\n24.04.15: Update Operation (YM)",
+            "04.07.17: According to Feedback J. Russo and D. Comiaianni: Application accounting relevant but not in ICS (Full) Scope. Flag has not been set.\nICS (Full) Scope. Flag has not been set.\n\nT. Koch, ITT\/Q, 19.09.: According to Feedback from D. Comiaianni change flag to \"true\"",
+            "26.11.10 (S. Ackermann): SOX tag deleted - WAMS is not in ICS scope of 2010 (deleted in 2009)",
+            "17-05-16, YM: ICS Relevance was confirmed by Dana Comaianni Martin on May 13, 2015",
+            "04.07.17: According to Feedback J. Russo and D. Comiaianni: Application is accounting relevant but not in ICS (Full) Scope.\n\n04.04.17: Kennzeichen nicht gesetzt gem. Email Jim Russo (IT) und Dana Comaianni (BU). System ist lt. BU Accounting-relevant, nicht jedoch ICS-relevant, d.h. nicht im ICS-Scope.",
+            "07.04.14, Y. Maier: lt Aussage von Fr. Klein am 07.04.2014 Betrieb ins EDC verlagert; kein ISAE Report mehr notwendig.",
+            "S. Ackermann, ITM\/S - 06.08.12: deleted according to system list IT\n18.07.12: set according to system list by ICS LF",
+            "... and more"
+        ],
+        "count_unique":19
+    },
+    {
+        "name":"Accounting Relevance",
+        "description":"Accounting Relevance",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Accounting Relevance Comment",
+        "description":"Accounting Relevance Comment",
+        "unique_values":[
+            "Application relevant for annual financial statement (2024) by the external auditor"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"ICS Alias Name",
+        "description":"ICS Alias Name",
+        "unique_values":[
+            "Auction Cash",
+            "EFT",
+            "CapLoans",
+            "Lockbox PS",
+            "WSF - Wholesale Finance - US\/Canada",
+            "ACE",
+            "Delfin",
+            "FDE",
+            "KID US GAP",
+            "Leas",
+            "... and more"
+        ],
+        "count_unique":17
+    },
+    {
+        "name":"Application Operation",
+        "description":"Application Operation",
+        "unique_values":[
+            "internal",
+            "external"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"ISAE3402 (SAS70)",
+        "description":"ISAE3402 (SAS70)",
+        "unique_values":[
+            "notApplicable",
+            "complete",
+            "standard"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"ICS Operator One",
+        "description":"ICS Operator One",
+        "unique_values":[
+            "T-Systems - Germany \/ S-Untert\u00fcrkheim",
+            "T-Systems - Germany \/ G\u00f6ppingen"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"ICS Operator Two",
+        "description":"ICS Operator Two",
+        "unique_values":[
+            "IT internal - local"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"TIME Classification",
+        "description":"TIME Classification",
+        "unique_values":[
+            "Migrate",
+            "Eliminate",
+            "Invest",
+            "Tolerate"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"TIME Classification Description",
+        "description":"TIME Classification Description",
+        "unique_values":[
+            "derived from ITM health check",
+            "No plan to migrate this to SMS or any other solution.",
+            "The entire Business Warehouse Architecture is integrated through Data Services across entire App Landscape with Business Objects as MIS tool. The architecture is homogenous  which is a strength in the market. Due time and consideration need to be applied before any Migration is possible.",
+            "There is a potential opportunity to merge PAC workbench with dealer call center application. The two options being evaluated include ServiceNow, Salesforce. Timeline is not clear, it could be 1-2 years.",
+            "Will be sundowned after transfer of OwnRetail sites within Reach project end of May 2024",
+            "Functionality is no longer needed",
+            "technical fit is not good (no support, outdated architecture), business has some demands that can't be fullfilled",
+            "SPICS is going to be replaces by MIRA, SMS and SPM@Asia. Latest December 2025 SPICS will be replaced by MIRA, SMS, SPM@Asia.",
+            "Ziel: HCM Partly; ServiceNow Partly; Differentiator full (onPrem)\n\nEigenentwicklung gem\u00e4\u00df ZPM SolutionDay 2 Entscheidung, teilweise Abl\u00f6sung durch ServiceNow, zu pr\u00fcfen teilweise Abl\u00f6sung durch HCM Cloud"
+        ],
+        "count_unique":9
+    },
+    {
+        "name":"Date of TIME classification",
+        "description":"Date of TIME classification",
+        "unique_values":[
+            "2024-03-05",
+            "2024-07-22",
+            "2023-12-11",
+            "2024-03-07",
+            "2024-03-11",
+            "2024-02-12",
+            "2024-03-13",
+            "2024-10-23",
+            "2024-11-08"
+        ],
+        "count_unique":9
+    },
+    {
+        "name":"Functional Fit",
+        "description":"Functional Fit",
+        "unique_values":[
+            "perfect",
+            "insufficient",
+            "appropriate",
+            "unreasonable"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Functional Fit Description",
+        "description":"Functional Fit Description",
+        "unique_values":[
+            "derived from ITM health check",
+            "multiple business units want changes to the \"Auswertestrategie\" and performance\/usability improvements"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Technical Fit",
+        "description":"Technical Fit",
+        "unique_values":[
+            "inappropriate",
+            "adequate",
+            "unreasonable",
+            "fullyAppropriate"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Technical Fit Description",
+        "description":"Technical Fit Description",
+        "unique_values":[
+            "derived from ITM health check",
+            "version is out of support from vendor, rich client only, no user management"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Transition State",
+        "description":"Transition State",
+        "unique_values":[
+            "outOfScope",
+            "completed",
+            "pending",
+            "inTransition",
+            "planned"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Out-of-Scope Reason ",
+        "description":"Out-of-Scope Reason ",
+        "unique_values":[
+            "sundownPlanned",
+            "technicalRestrictions",
+            "freeze",
+            "noBusinessCase",
+            "sundownInProgress"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Transition State Comment",
+        "description":"Transition State Comment",
+        "unique_values":[
+            "Dependent on SPIRE",
+            "This is a PC based solution. Not SaaS.",
+            "Nach Umbau des Bankportals nach CONTACT WebtouchPoints wird eine Migration Richtung Azure angestrebt.",
+            "BW ZA - Cloud migration for SAP Products in general is a challenge and will await guidance from central on the recommended approach \/ strategy",
+            "Hosting as SaaS with the vendor (long-term plan)",
+            "CDS Replacement for CreditScoring by CP (APP-34688) and CDS-Sundown for RBC-Markets by PEGA",
+            "Sundown can only happen once CRD has taken over all markets",
+            "Waiting for Startshift migration.",
+            "Not planned",
+            "Galaxi ZA Current Feedback is that Oracle would be challenging to migrate to the cloud AS-IS - A lot of rework to modernize (enable) the application would have to take place first before a cloud migration would be feasible(possible)- await mAZURE team from MBM to provide guidance on this topic",
+            "... and more"
+        ],
+        "count_unique":14
+    },
+    {
+        "name":"Target Transformation State",
+        "description":"Target Transformation State",
+        "unique_values":[
+            "refactoring",
+            "rebuild",
+            "rehosting",
+            "replatforming",
+            "repurchase"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Cloud Provider",
+        "description":"Cloud Provider",
+        "unique_values":[
+            "aws",
+            "azure",
+            "others",
+            "notDecided",
+            "onPremisesCloud"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Cloud Provider Comment",
+        "description":"Cloud Provider Comment",
+        "unique_values":[
+            "SalesForce",
+            "dependent on vendor support and offering",
+            "MBB default provider.",
+            "On Prem",
+            "Mercedes Benz Bank Germany - EPU-5",
+            "Not a cloud application",
+            "Spire",
+            "IBM Cloud",
+            "Because we've had a lot of experience with Azure in the last two years. We also operate various applications based on azure devops in our azure supscription (HRPAP)."
+        ],
+        "count_unique":9
+    },
+    {
+        "name":"Cloud Type",
+        "description":"Cloud Type",
+        "unique_values":[
+            "saas",
+            "caas;faas;paas;saas",
+            "caas;faas;paas",
+            "caas",
+            "iaas",
+            "paas",
+            "saas;iaas;paas",
+            "caas;iaas"
+        ],
+        "count_unique":8
+    },
+    {
+        "name":"Transition Planned from",
+        "description":"Transition Planned from",
+        "unique_values":[
+            "2021-03-15",
+            "2027-01-01",
+            "2025-01-01",
+            "2023-01-05",
+            "2023-01-01",
+            "2025-04-01",
+            "2025-06-01",
+            "2026-01-01",
+            "2023-04-01",
+            "2027-01-02",
+            "... and more"
+        ],
+        "count_unique":13
+    },
+    {
+        "name":"Transition Planned to",
+        "description":"Transition Planned to",
+        "unique_values":[
+            "2021-03-22",
+            "2028-12-01",
+            "2026-12-31",
+            "2027-12-25",
+            "2028-12-25",
+            "2024-09-30",
+            "2025-12-31",
+            "2030-12-31",
+            "2023-01-01",
+            "2028-12-31",
+            "... and more"
+        ],
+        "count_unique":12
+    },
+    {
+        "name":"Additional Cloud and Cloud Transition Comments",
+        "description":"Additional Cloud and Cloud Transition Comments",
+        "unique_values":[
+            "Adobe Central will be sundown with the MF Sundown Project",
+            "DMS is a legacy system where the system's design is not fit to migrate to cloud",
+            "Due to OneHouse project, lifetime of the app is unknown.",
+            "dependent on product development of the software provider",
+            "Hosted in FDC",
+            "Hosted in the SDCE",
+            "already in EPU5 hosted",
+            "Abl\u00f6sung durch PLT"
+        ],
+        "count_unique":8
+    },
+    {
+        "name":"Risk \/ Complexity",
+        "description":"Risk \/ Complexity",
+        "unique_values":[
+            "high",
+            "medium",
+            "veryHigh"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Priority",
+        "description":"Priority",
+        "unique_values":[
+            "wave3",
+            "wave1"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Application analysis regarding transformation to modern authentication services done?",
+        "description":"Application analysis regarding transformation to modern authentication services done?",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"AD Sundown Analysis Comment",
+        "description":"AD Sundown Analysis Comment",
+        "unique_values":[
+            "Mainframe Application",
+            "This app will be sundown by end of 2024",
+            "DMP can be updated, however it will be sundown with the MF Sundown Project.",
+            "Authentication",
+            "Fileshare",
+            "Mainframe application",
+            "Authentication & Authorization,  is not relevant,  This is a printer server for 4 dealer credit reports.  Scheduled to be sundown with MF sundown project",
+            "GAS enabled. VIP will be sundowned by Q2 2024",
+            "AD in place for client SSO login; need MBAG SAP solution",
+            "Mainframe application ACF2 LDAP",
+            "... and more"
+        ],
+        "count_unique":39
+    },
+    {
+        "name":"Is the transition in modern authentication services possible?",
+        "description":"Is the transition in modern authentication services possible?",
+        "unique_values":[
+            "no",
+            "yes",
+            "inProgress"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"AD Sundown Transition Comment",
+        "description":"AD Sundown Transition Comment",
+        "unique_values":[
+            "DMP can be updated, however it will be sundown with the MF Sundown Project.",
+            "AUthentication",
+            "Vendor Product",
+            "VIP will be sun downed by early Q2 of 2024 after VIPSe launch.",
+            "awaiting solution from MBAG for all SAP systems",
+            "Mainframe application ACF2 LDAP",
+            "Already integrated with OIDC",
+            "OIDC implemented",
+            "Backend service",
+            "awaiting global solution for SAP systems",
+            "... and more"
+        ],
+        "count_unique":40
+    },
+    {
+        "name":"Start Date of implementation of Transition to  modern Authentication Services",
+        "description":"Start Date of implementation of Transition to  modern Authentication Services",
+        "unique_values":[
+            "2024-08-31",
+            "2021-07-31"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"AD Sundown Status",
+        "description":"AD Sundown Status",
+        "unique_values":[
+            "outOfScope",
+            "TargetLandscapeToBeAnalysed",
+            "incompleteInformation",
+            "analysisIfTransformationIsPossible",
+            "transitionToBeMade"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"TSA required.",
+        "description":"TSA required.",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Departments Selected",
+        "description":"Departments Selected",
+        "unique_values":[
+            "itm",
+            "mbb;itm",
+            "itm;mbb",
+            "mbb"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Degree of use of REST API",
+        "description":"Degree of use of REST API",
+        "unique_values":[
+            "noUseRestAPI",
+            "AppUsesOneRestAPI",
+            "moreFiftyPercentOfIntefaceRestAPI",
+            "MoreNintyPercentOfInterfaceRestAPI"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"How well does the application support business processes?",
+        "description":"How well does the application support business processes?",
+        "unique_values":[
+            "veryGood",
+            "good",
+            "okay"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Is the application part of MBM Digital Product List?",
+        "description":"Is the application part of MBM Digital Product List?",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"What is the develeopment type of this application?",
+        "description":"What is the develeopment type of this application?",
+        "unique_values":[
+            "selfDeveloped",
+            "purchasedLicensed",
+            "hybrid"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"What is the impact if the application fails?",
+        "description":"What is the impact if the application fails?",
+        "unique_values":[
+            "high",
+            "low",
+            "veryHigh",
+            "medium"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Which type of application architecture is used?",
+        "description":"Which type of application architecture is used?",
+        "unique_values":[
+            "monolithic",
+            "modular",
+            "microservice"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Business Value",
+        "description":"Business Value",
+        "unique_values":[
+            "high",
+            "medium",
+            "veryHigh",
+            "low"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Hosting",
+        "description":"Hosting",
+        "unique_values":[
+            "otherInternalHosting",
+            "ePU",
+            "SDCE",
+            "otherExternalHosting",
+            "CGI"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Indication whether the application  is maintained by a supplier",
+        "description":"Indication whether the application  is maintained by a supplier",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 ID budget planned (SP-Element (cfmp) of run cost)",
+        "description":"ITO Cloud Journey \u2013 ID budget planned (SP-Element (cfmp) of run cost)",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Fraction budget planned if more than one app is on SP-Element (cfmp), else 100%)",
+        "description":"ITO Cloud Journey \u2013 Fraction budget planned if more than one app is on SP-Element (cfmp), else 100%)",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 \u00a0Application type",
+        "description":"ITO Cloud Journey \u2013 \u00a0Application type",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Repurchase judgement",
+        "description":"ITO Cloud Journey \u2013 Repurchase judgement",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Repurchase - Justification",
+        "description":"ITO Cloud Journey \u2013 Repurchase - Justification",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Rebuild - Justification",
+        "description":"ITO Cloud Journey \u2013 Rebuild - Justification",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Rebuild \u2013 Cost indication for transition",
+        "description":"ITO Cloud Journey \u2013 Rebuild \u2013 Cost indication for transition",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Rebuild judgement",
+        "description":"ITO Cloud Journey \u2013 Rebuild judgement",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Refactoring \u00a0Justification",
+        "description":"ITO Cloud Journey \u2013 Refactoring \u00a0Justification",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Refactoring judgement",
+        "description":"ITO Cloud Journey \u2013 Refactoring judgement",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Rehost - Justification",
+        "description":"ITO Cloud Journey \u2013 Rehost - Justification",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Rehost \u2013 Cost indication for transition",
+        "description":"ITO Cloud Journey \u2013 Rehost \u2013 Cost indication for transition",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Refactoring \u2013 Cost indication for transition",
+        "description":"ITO Cloud Journey \u2013 Refactoring \u2013 Cost indication for transition",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Rehost judgement",
+        "description":"ITO Cloud Journey \u2013 Rehost judgement",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Repurchase \u2013 Cost indication for transition",
+        "description":"ITO Cloud Journey \u2013 Repurchase \u2013 Cost indication for transition",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ITO Cloud Journey \u2013 Sundown judgement",
+        "description":"ITO Cloud Journey \u2013 Sundown judgement",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Legally required flag by BaFin",
+        "description":"Legally required flag by BaFin",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"KWG\/MaRisk Relevance",
+        "description":"KWG\/MaRisk Relevance",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Prio-1",
+        "description":"Prio-1",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Financial Statement Relevance",
+        "description":"Financial Statement Relevance",
+        "unique_values":[
+            "no",
+            "yes"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"MBB Eyes Only ",
+        "description":"MBB Eyes Only ",
+        "unique_values":[
+            "yes",
+            "no"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"MBB MFB ABB",
+        "description":"MBB MFB ABB",
+        "unique_values":[
+            "2026-12-31",
+            "2024-12-31",
+            "2027-12-31",
+            "2025-12-31"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"MBB MFB Migration-Relevant",
+        "description":"MBB MFB Migration-Relevant",
+        "unique_values":[
+            "notApplicable",
+            "cloudMigration",
+            "dataMigration",
+            "ApplicationArchiving"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"MBB MFB MMF",
+        "description":"MBB MFB MMF",
+        "unique_values":[
+            "2021-05-23",
+            "2008-01-01",
+            "2008-04-14",
+            "2010-10-16",
+            "2010-01-01",
+            "2006-01-01",
+            "2000-01-01",
+            "1985-01-01",
+            "2003-01-01",
+            "1998-01-01",
+            "... and more"
+        ],
+        "count_unique":11
+    },
+    {
+        "name":"MBB MFB Target Picture",
+        "description":"MBB MFB Target Picture",
+        "unique_values":[
+            "no",
+            "yes",
+            "underClarification"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"MBB Target Hosting",
+        "description":"MBB Target Hosting",
+        "unique_values":[
+            "notApplicable",
+            "MBBAzureCloud"
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"T4P Application Category",
+        "description":"T4P Application Category",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"T4P Global Governance",
+        "description":"T4P Global Governance",
+        "unique_values":[
+            "yes"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"T4P Global Standard Application",
+        "description":"T4P Global Standard Application",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"T4P Global System Category",
+        "description":"T4P Global System Category",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"T4P managed Application",
+        "description":"T4P managed Application",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"T4P MBRDI Support Model",
+        "description":"T4P MBRDI Support Model",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"T4P Target Landscape Scenario",
+        "description":"T4P Target Landscape Scenario",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Hosted By Application",
+        "description":"Hosted By Application",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Modules used by Application",
+        "description":"Modules used by Application",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Corresponding IT Unit",
+        "description":"Corresponding IT Unit",
+        "unique_values":[
+            "(ITM\/AS) Digital Customer & Business Solutions",
+            "(ITM\/AL) Portfolio Systems and Digital Transformations",
+            "(MBB\/ID) PoS & Digitalization",
+            "ITM\/TG - Spain (View)",
+            "(MBB\/IS) Platform & Services",
+            "(MBB\/I) IT MB Bank",
+            "ITM\/TG - France (View)",
+            "(ITS\/EU) IT UK",
+            "ITM\/TG - Austria (View)",
+            "ITM\/TG - Sweden\/ Denmark (View)",
+            "... and more"
+        ],
+        "count_unique":16
+    },
+    {
+        "name":"Consumer Org",
+        "description":"Consumer Org",
+        "unique_values":[
+            "Internal Consumer \/ Financial Services \/ 525 - Mercedes-Benz Financial Services USA LLC;Internal Consumer \/ Financial Services \/ 858 - Mercedes-Benz Financial Services Canada Corporation",
+            "Internal Consumer \/ Financial Services \/ 525 - Mercedes-Benz Financial Services USA LLC;Internal Consumer \/ Financial Services \/ 578 - Mercedes-Benz Mobility Mexico, S. de R.L. de C.V;Internal Consumer \/ Financial Services \/ 858 - Mercedes-Benz Financial Services Canada Corporation",
+            "Internal Consumer \/ Financial Services \/ 525 - Mercedes-Benz Financial Services USA LLC",
+            "Internal Consumer \/ Financial Services \/ 525 - Mercedes-Benz Financial Services USA LLC;Internal Consumer \/ Financial Services \/ 578 - Mercedes-Benz Mobility Mexico, S. de R.L. de C.V",
+            "Sales & Aftersales Organization \/ Wholesale Organization \/ Sales & Aftersales HQ \/ 000 - Hauptverwaltung Fahrzeuggesch\u00e4ft",
+            "Sales & Aftersales Organization \/ Retail Organization \/ Retail Region Overseas \/ Independent Retail MoC \/ Independent Retail Malaysia;Sales & Aftersales Organization \/ Wholesale Organization \/ Region Overseas \/ MPC Market Overseas \/ 633 - Mercedes-Benz Malaysia Sdn. Bhd.",
+            "Production locations \/ 010 - Werk Stuttgart-Untert\u00fcrkheim",
+            "Internal Consumer \/ Financial Services \/ 032 - Mercedes-Benz Bank AG;Internal Consumer \/ Financial Services \/ 036 - Mercedes-Benz Leasing GmbH;Internal Consumer \/ Financial Services \/ 394 - Mercedes-Benz Bank Service Center GmbH;Internal Consumer \/ Financial Services \/ 643 - Daimler Insurance Services GmbH;Internal Consumer \/ Financial Services \/ 845 - Mercedes-Benz Banking Service GmbH;Internal Consumer \/ Financial Services \/ 846 - Daimler Fleet Management GmbH",
+            "Internal Consumer \/ Financial Services \/ 817 - Mercedes-Benz Financial Services South Africa (Pty.) Ltd.;Sales & Aftersales Organization \/ Retail Organization \/ Retail Region Overseas \/ Independent Retail MoC \/ Independent Retail South Africa;Sales & Aftersales Organization \/ Wholesale Organization \/ Region Overseas \/ MPC Market Overseas \/ 175 - Mercedes-Benz South Africa (Pty.) Ltd. - MPC (View)",
+            "Internal Consumer \/ Financial Services \/ 524 - Mercedes-Benz Renting, S.A.;Internal Consumer \/ Financial Services \/ 801 - Mercedes-Benz Finanical Services Espana Establecimiento Financiero de Credito S.A.;Internal Consumer \/ Financial Services \/ 802 - Mercedes-Benz CharterWay Espana, S.A.",
+            "... and more"
+        ],
+        "count_unique":45
+    },
+    {
+        "name":"Business Capability & Business Function",
+        "description":"Business Capability & Business Function",
+        "unique_values":[
+            "FS.24.03 Payments;FS.24.03.01 Payout",
+            "FS.05.03 Record2Report;FS.05.03.17 Financial Adjustments",
+            "FS.18.02.04 Corporate Reconciliation of Dealer Data",
+            "FS.09.01 Inventory Management;FS.09.01.04 Credit Line Activation",
+            "FS.10.03 Credit decision;FS.10.03.03 Credit decision (approved, approved with conditions, declined) with scoring",
+            "CS.01.02.00 Dummy Function",
+            "FS.22.02 Collateral;FS.22.02.15 Registration certificate management",
+            "FS.09.02 Contract Management;FS.09.02.01 Complaint Management;FS.09.02.02 Financial Contract Modification;FS.09.02.03 Formal Requirements Review;FS.09.02.04 Ownership transfer;FS.09.02.05 Regular Contract Termination;FS.09.02.06 Reversal;FS.09.02.07 Deferred Payment Handling;FS.09.02.08 Billing and Payments Handling;FS.09.02.09 Contract Activation;FS.09.02.10 Contract Creation and Capitalization (FA Rent);FS.09.02.11 Non-Financial Contract Modification;FS.09.02.12 Recording contract-related notes;FS.09.02.13 End-of-contract monitoring;FS.09.02.14 Contract history Management;FS.09.02.16 Contract cancellation;FS.09.02.17 Contract extension;FS.09.02.18 Alteration of contract;FS.09.02.19 Contract transfer;FS.09.02.20 Irregular Contract Termination;FS.09.02.22 Contract Discounting",
+            "FS.10.04 Scorecard (Retail);FS.10.04.02 Risk Classification (Scoring)",
+            "M.10.1.1 Operative Steering of Corporate Communications [generated];M.10.3.1 Public & Media Relations [generated]",
+            "... and more"
+        ],
+        "count_unique":89
+    },
+    {
+        "name":"Business Process",
+        "description":"Business Process",
+        "unique_values":[
+            "BP055.060.040 Financial transaction;BP055.080.010 Pre-term activities",
+            "BP010.030.010 Customer communications;BP055.020.020 Handling of financial changes;BP055.020.120 Billing and statement handling",
+            "BP010.010.010 Local market research;BP010.010.050 Dealer satisfaction survey;BP010.020.010 Product planning and review;BP010.020.020 Product definition and approval;BP010.020.030 Product marketing;BP010.020.040 Product training;BP010.020.050 Campaign development;BP010.030.010 Customer communications;BP010.030.020 Event management;BP010.040.010 Regular dealer sales meeting;BP010.040.090 External partner relationship management;BP010.050.010 Creation of business partner profile",
+            "BP055.010.080 Commission, subsidy and incentive handling;BP055.020.120 Billing and statement handling;BP090.010.010 Claiming of  open items\/amounts due;BP090.020.015 Authorization and posting of new business payments",
+            "BP055.010.090 Contract activation",
+            "BP055.010.010 Customer qualification",
+            "BP010.030.010 Customer communications",
+            "BP010.030.020 Event management",
+            "BP010.010.050 Dealer satisfaction survey",
+            "BP090.010.100 Enquiries about incoming payments;BP090.030.010 Asset acquisition posting",
+            "... and more"
+        ],
+        "count_unique":89
+    },
+    {
+        "name":"Provided Information Flow\/Interface",
+        "description":"Provided Information Flow\/Interface",
+        "unique_values":[
+            "A4298-C AC - Auction Cash 1.0 >> A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 1.0;A4298-C AC - Auction Cash 1.0 >> A4487-C Web AMS - Asset Management System 1.0 1.0;A4298-C AC - Auction Cash 1.0 >> T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-GL 1.0) 1.0",
+            "A4303-C ChngNot - Change Notices 1.0 >> A4311-C DRS - Dealer Reserve System 1.0 1.0;A4303-C ChngNot - Change Notices 1.0 >> A4311-C DRS - Dealer Reserve System 1.0 : IF-27137 Duplicate 1.0;A4303-C ChngNot - Change Notices 1.0 >> A4452-C RFCR - Retail Funding Clearing Reporting 1.0 1.0;A4303-C ChngNot - Change Notices 1.0 >> A4489-C WHSL - Wholesale US\/Canada 1.0 1.0;A4303-C ChngNot - Change Notices 1.0 >> T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-GL 1.0) 1.0",
+            "A4308-C DFAS - Dealer Financial Analysis System 1.0 >> T3964-C ESSB App - MBFS Essbase Applications 1.0 1.0;A4308-C DFAS - Dealer Financial Analysis System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 1.0",
+            "A4311-C DRS - Dealer Reserve System 1.0 >> A1112-C EOS - Enterprise Output System 1.0 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A1112-C EOS - Enterprise Output System 1.0 : IF-27336 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A1112-C EOS - Enterprise Output System 1.0 : IF-27338 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A1112-C EOS - Enterprise Output System 1.0 : IF-27339 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 : IF-27343 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 : IF-35349 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A4476-C MB Adv - MB Advantage 1.0 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A4489-C WHSL - Wholesale US\/Canada 1.0 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A4503-C DlrProf - Dealer Profile 3.8 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-AP 1.0) 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-AP 1.0) : IF-28863 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-GL 1.0) 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 : IF-27349 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 : IF-27350 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 : IF-27351 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 : IF-27352 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 : IF-28019 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 : IF-28020 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 : IF-35346 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 : IF-36716 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> T5578-C DSSETLA - ETL Administration (Informatica) 1.0 1.0;A4311-C DRS - Dealer Reserve System => P0001 CD-W-MI - Common Directory W - Farmington Hils, MI 1.0;A4311-C DRS - Dealer Reserve System => P0001 CD-W-MI - Common Directory W - Farmington Hils, MI : IF-27355 Duplicate 1.0",
+            "A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 : IF-86759 Duplicate 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A1113-C ACM - Access Control Manager 2 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A4311-C DRS - Dealer Reserve System 1.0 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A4388-C CapLoans - CapLoans System 1.0 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A4452-C RFCR - Retail Funding Clearing Reporting 1.0 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A4489-C WHSL - Wholesale US\/Canada 1.0 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A4516-C ACE - Automated Credit Evaluation 1.0 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> ESB - Enterprise Service Bus 1.0 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-GL 1.0) 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 : IF-86758 Duplicate 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car => V0020 JPMC - JP Morgan Chase (525) 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car => V0090 TD Bank 1.0",
+            "A4338-C MCL - Moodys Credit Lens 1.0 >> A5070-C eCP - eCreditPro 1.0 1.0",
+            "A4365-C DMP - Document Management Portal 1.0 >> A4519-C FAW - Financial Agent Workbench 1.0 1.0;A4365-C DMP - Document Management Portal 1.0 >> T1119-C ESB - Enterprise Service Bus 1.0 (ICCThirdParty 1.0) ICCThirdParty --> LoadThirdParty 1.0",
+            "A4378-C TMU - Title Management 2.0 >> A1168-C DLM - Collections and Recovery 1.0 Title Info 1.0;A4378-C TMU - Title Management 2.0 >> A4365-C DMP - Document Management Portal 1.0 1.0;A4378-C TMU - Title Management 2.0 >> A4454-C ABS - ABS Suite 8.5.56 1.0;A4378-C TMU - Title Management 2.0 >> A4476-C MB Adv - MB Advantage 1.0 1.0;A4378-C TMU - Title Management 2.0 >> A4519-C FAW - Financial Agent Workbench 1.0 1.0;A4378-C TMU - Title Management 2.0 >> E1226 TitleVault - Dealer Track Title Repository Services 1 1.0;A4378-C TMU - Title Management 2.0 >> T4518-C DW - MBFS Data Warehouse 1.0 1.0;A4378-C TMU - Title Management 2.0 >> T5361-C IVR - Interactive Voice Response 1.0 1.0;A4378-C TMU - Title Management 2.0 >> T5578-C DSSETLA - ETL Administration (Informatica) 1.0 1.0;A4378-C TMU - VITU Title Management System >> T1180-C Chatbot - Customer facing chatbot 1.0",
+            "A4388-C CapLoans - CapLoans System 1.0 >> A1136-C FSPE - Financial System and Performance Engine 1.0 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A1148-C CL - Compliance Link 3.6 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A1169-C FRAMES - Forms Automation Management System CCE V16 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A1169-C FRAMES - Forms Automation Management System CCE V16 : IF-103631 Duplicate 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A4308-C DFAS - Dealer Financial Analysis System 1.0 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A4454-C ABS - ABS Suite 8.5.56 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A4476-C MB Adv - MB Advantage 1.0 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A4489-C WHSL - Wholesale US\/Canada 1.0 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A4503-C DlrProf - Dealer Profile 3.8 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A4515-C CrShell - CPMS\/Credit Shell 1.7 1.0;A4388-C CapLoans - CapLoans System 1.0 >> ESB - Enterprise Service Bus 1.0 1.0;A4388-C CapLoans - CapLoans System 1.0 >> T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-AP 1.0) 1.0;A4388-C CapLoans - CapLoans System 1.0 >> T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-GL 1.0) 1.0;A4388-C CapLoans - CapLoans System 1.0 >> T4518-C DW - MBFS Data Warehouse 1.0 1.0",
+            "A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0 >> T4499-C Cognos - MBFS Cognos 1.0 1.0",
+            "... and more"
+        ],
+        "count_unique":85
+    },
+    {
+        "name":"Consumed Information Flow\/Interface",
+        "description":"Consumed Information Flow\/Interface",
+        "unique_values":[
+            "A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 >> A4298-C AC - Auction Cash 1.0 Disposition 1.0;A4487-C Web AMS - Asset Management System 1.0 >> A4298-C AC - Auction Cash 1.0 1.0;DS EDS - IAM Data Service Employees Dealers & Suppliers 20.18 >> A4298-C AC - Auction Cash 1.0 1.0;T1134-C MODS - MBFS Operational Data Store 1.0 >> A4298-C AC - Auction Cash 1.0 1.0;V0020 JPMC - JP Morgan Chase (525) => A4298-C AC - Auction Cash 1.0",
+            "A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 >> A4303-C ChngNot - Change Notices 1.0 Thirty Party 1.0;A4452-C RFCR - Retail Funding Clearing Reporting 1.0 >> A4303-C ChngNot - Change Notices 1.0 1.0;A4489-C WHSL - Wholesale US\/Canada 1.0 >> A4303-C ChngNot - Change Notices 1.0 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4303-C ChngNot - Change Notices 1.0 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4303-C ChngNot - Change Notices 1.0 : IF-102596 Duplicate 1.0;A6255-C DCP - Dealer Credit Portal 1.0 >> A4303-C ChngNot - Change Notices 1.0 1.0;DS EDS - IAM Data Service Employees Dealers & Suppliers 20.18 >> A4303-C ChngNot - Change Notices 1.0 1.0;T1119-C ESB - Enterprise Service Bus 1.0 (MBFS_SOA_ICCCustomerAggregation 1.0) >> A4303-C ChngNot - Change Notices 1.0 MBFS_SOA_ICCCustomerAggregation --> getCompleteAgreementDetail 1.0",
+            "DS EDS - IAM Data Service Employees Dealers & Suppliers 20.18 >> A4308-C DFAS - Dealer Financial Analysis System 1.0 1.0",
+            "A4303-C ChngNot - Change Notices 1.0 >> A4311-C DRS - Dealer Reserve System 1.0 1.0;A4303-C ChngNot - Change Notices 1.0 >> A4311-C DRS - Dealer Reserve System 1.0 : IF-27137 Duplicate 1.0;A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A4311-C DRS - Dealer Reserve System 1.0 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4311-C DRS - Dealer Reserve System 1.0 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4311-C DRS - Dealer Reserve System 1.0 : IF-102599 Duplicate 1.0;T1134-C MODS - MBFS Operational Data Store 1.0 >> A4311-C DRS - Dealer Reserve System 1.0 1.0;T1134-C MODS - MBFS Operational Data Store 1.0 >> A4311-C DRS - Dealer Reserve System 1.0 : IF-60394 Duplicate 1.0;T1134-C MODS - MBFS Operational Data Store 1.0 >> A4311-C DRS - Dealer Reserve System 1.0 : IF-60395 Duplicate 1.0;T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-AP 1.0) >> A4311-C DRS - Dealer Reserve System 1.0 1.0;T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-GL 1.0) >> A4311-C DRS - Dealer Reserve System 1.0 1.0",
+            "A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 Get Account\/VIN\/Quote information 1.0;A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 New Business Message 1.0;A1193-C VIPS 2.0 - Vehicle Incentive Pricing & Subsidy 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4308-C DFAS - Dealer Financial Analysis System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 : IF-27343 Duplicate 1.0;A4311-C DRS - Dealer Reserve System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 : IF-35349 Duplicate 1.0;A4388-C CapLoans - CapLoans System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4452-C RFCR - Retail Funding Clearing Reporting 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4476-C MB Adv - MB Advantage 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4476-C MB Adv - MB Advantage 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 : IF-102348 Duplicate 1.0;A4486-C VIP - Vehicle, Incentives & Pricing System 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4489-C WHSL - Wholesale US\/Canada 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 : IF-101779 Duplicate 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 : IF-86766 Duplicate 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 : IF-86771 Duplicate 1.0;A4516-C ACE - Automated Credit Evaluation 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;A6255-C DCP - Dealer Credit Portal 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;CL - Clearing\/Leasing 1.0 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;DS EDS - IAM Data Service Employees Dealers & Suppliers 20.18 >> A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 1.0;V0020 JPMC - JP Morgan Chase (525) => A4318-C EFT Car - Electronic Funds Transfer - Car 1.0;V0020 JPMC - JP Morgan Chase (525) => A4318-C EFT Car - Electronic Funds Transfer - Car : IF-62229 Duplicate 1.0;V0020 JPMC - JP Morgan Chase (525) => A4318-C EFT Car - Electronic Funds Transfer - Car : IF-62230 Duplicate 1.0;V0020 JPMC - JP Morgan Chase (525) => A4318-C EFT Car - Electronic Funds Transfer - Car : IF-62231 Duplicate 1.0",
+            "A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 >> A4365-C DMP - Document Management Portal 1.0 Third Part\/Schedule\/Asset\/Termination 1.0;A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 >> A4365-C DMP - Document Management Portal 1.0 Third Party\/Schedule\/Asset\/Termination 1.0;A4378-C TMU - Title Management 2.0 >> A4365-C DMP - Document Management Portal 1.0 1.0;A4519-C FAW - Financial Agent Workbench 1.0 >> A4365-C DMP - Document Management Portal 1.0 1.0;DS EDS - IAM Data Service Employees Dealers & Suppliers 20.18 >> A4365-C DMP - Document Management Portal 1.0 1.0;T1119-C ESB - Enterprise Service Bus 1.0 (ICCExposureGroup 1.0) >> A4365-C DMP - Document Management Portal 1.0 ICCExposureGroup --> loadExposureGroup 1.0;T1119-C ESB - Enterprise Service Bus 1.0 (ICCExposureGroup 1.0) >> A4365-C DMP - Document Management Portal 1.0 ICCExposureGroup --> searchForExposureGroup 1.0;T1119-C ESB - Enterprise Service Bus 1.0 (ICCScheduleEnquiry 1.0) >> A4365-C DMP - Document Management Portal 1.0 ICCScheduleAlert --> loadSchedule 1.0;T1119-C ESB - Enterprise Service Bus 1.0 (ICCScheduleSearch 1.0) >> A4365-C DMP - Document Management Portal 1.0 ICCScheduleSearch --> ListSchedulesForThirdParty 1.0;T1119-C ESB - Enterprise Service Bus 1.0 (ICCThirdPartySearch 1.0) >> A4365-C DMP - Document Management Portal 1.0 ICCThirdPartyNote --> search 1.0;T1134-C MODS - MBFS Operational Data Store 1.0 >> A4365-C DMP - Document Management Portal 1.0 1.0;T1134-C MODS - MBFS Operational Data Store 1.0 >> A4365-C DMP - Document Management Portal 1.0 : IF-60391 Duplicate 1.0;T1134-C MODS - MBFS Operational Data Store 1.0 >> A4365-C DMP - Document Management Portal 1.0 : IF-60392 Duplicate 1.0;T1134-C MODS - MBFS Operational Data Store 1.0 >> A4365-C DMP - Document Management Portal 1.0 : IF-60393 Duplicate 1.0;V0011 Budco - Budco Digital Print Center => A4365-C DMP - Document Management Portal 1.0;V0012 Wolverine - Wolverine Printing => A4365-C DMP - Document Management Portal 1.0;V0013 DiversPrnt - Diversified Printing => A4365-C DMP - Document Management Portal 1.0;V0018 DT - Dealer Track => A4365-C DMP - Document Management Portal 1.0",
+            "A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 >> A4378-C TMU - Title Management 2.0 Third Party\/Schedule\/Asset\/WF\/Termination 1.0;A4487-C Web AMS - Asset Management System 1.0 >> A4378-C TMU - Title Management 2.0 1.0;A4487-C Web AMS - Asset Management System 1.0 >> A4378-C TMU - Title Management 2.0 : IF-84709 Duplicate 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4378-C TMU - Title Management 2.0 1.0;DS EDS - IAM Data Service Employees Dealers & Suppliers 20.18 >> A4378-C TMU - Title Management 2.0 1.0;T1180-C Chatbot - Customer facing chatbot 1.0 >> A4378-C TMU - Title Management 2.0 1.0;V0060 GC - GC Services => A4378-C TMU - Title Management 1.0",
+            "A4318-C EFT Car - Electronic Funds Transfer - Car 1.0 >> A4388-C CapLoans - CapLoans System 1.0 1.0;A4489-C WHSL - Wholesale US\/Canada 1.0 >> A4388-C CapLoans - CapLoans System 1.0 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4388-C CapLoans - CapLoans System 1.0 1.0;A4503-C DlrProf - Dealer Profile 3.8 >> A4388-C CapLoans - CapLoans System 1.0 : IF-51065 Duplicate 1.0;A6255-C DCP - Dealer Credit Portal 1.0 >> A4388-C CapLoans - CapLoans System 1.0 1.0;DS EDS - IAM Data Service Employees Dealers & Suppliers 20.18 >> A4388-C CapLoans - CapLoans System 1.0 1.0;T1142-C ECM - Enterprise Content Manager 22.4 >> A4388-C CapLoans - CapLoans System 1.0 1.0;T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 (SAP FI-AP 1.0) >> A4388-C CapLoans - CapLoans System 1.0 1.0;T2001-C SAP FLIC - SAP Inbound\/Outbound Integration Service 1.0 >> A4388-C CapLoans - CapLoans System 1.0 1.0",
+            "A1136-C FSPE - Financial System and Performance Engine 1.0 >> A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0 1.0;A1136-C FSPE - Financial System and Performance Engine 1.0 >> A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0 : IF-61049 Duplicate 1.0;Credit Loss CSV File => A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0;DS EDS - IAM Data Service Employees Dealers & Suppliers 20.18 >> A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0 1.0;Marketing Initiatives CSV File => A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0;OPEX CSV File => A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0;Riskfactors CSV File => A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0;T4518-C DW - MBFS Data Warehouse 1.0 >> A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0 1.0;T5578-C DSSETLA - ETL Administration (Informatica) 1.0 >> A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0 1.0;Vehicle Model Information => A4392-C A RORAC - Acquisition RORAC (Return on Risk Adjusted Credit) 1.0",
+            "A1097-C ALFA - Asset and Lease Finance Administration System 5.6.25.r.20230304.020123.p.20230823.051152 >> A4413-C OPS - On-Line Payment System 1.0 Third Party\/Schedule\/Asset\/Termination 1.0;A4426-C MBFUCW - Mercedes-Benz Financial US\/Canada Consumer Website 2.0 >> A4413-C OPS - On-Line Payment System 1.0 1.0;A4475-C Lckbx PS - Lockbox Processing System 1.0 >> A4413-C OPS - On-Line Payment System 1.0 1.0;DS EDS - IAM Data Service Employees Dealers & Suppliers 20.18 >> A4413-C OPS - On-Line Payment System 1.0 1.0;E52882-REPAY => A4413-C OPS - On-Line Payment System;T1119-C ESB - Enterprise Service Bus 1.0 >> A4413-C OPS - On-Line Payment System 1.0 ESB 1.0;T1180-C Chatbot - Customer facing chatbot 1.0 >> A4413-C OPS - On-Line Payment System 1.0 1.0;V0014 CB - Citi Bank => A4413-C OPS - On-Line Payment System 1.0;V0094-C REPAY Interface => A4413-C OPS - On-Line Payment System 1.0",
+            "... and more"
+        ],
+        "count_unique":87
+    },
+    {
+        "name":"Data Objects",
+        "description":"Data Objects",
+        "unique_values":[
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract (FS) @Deprecated \/ Contract: Arrears Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract (FS) @Deprecated \/ Contract: General Contract Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract Template (FS) @Deprecated \/ Contract Template: General Contract Template Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Policy (FS) @Deprecated \/ Policy: General Contract Information (FS) @Deprecated",
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: General Account Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: General Posting Voucher Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: General Reporting Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: GL Posting Voucher Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: Partner Posting Voucher Information (FS) @Deprecated",
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Bank Account Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Contact Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Financials (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Agreement Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Dealer Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Partner Settings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Relation To Other Partner @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Risk Information @Deprecated",
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: General Account Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: General Posting Voucher Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: General Reporting Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: GL Posting Voucher Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: Partner Posting Voucher Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Bank Account Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Business Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Contact Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Financials (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Agreement Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Dealer Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Partner Settings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Relation To Other Partner @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Risk Information @Deprecated",
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Funding Product (FS) @Deprecated \/ Funding Product: Campaign Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Funding Product (FS) @Deprecated \/ Funding Product: General Funding Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Funding Product (FS) @Deprecated \/ Funding Product: Installment Calculation Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Funding Product (FS) @Deprecated \/ Funding Product: Interest Calculation Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Funding Product (FS) @Deprecated \/ Funding Product: Payment Schedule (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Funding Product (FS) @Deprecated \/ Funding Product: Product Calculation Information (FS) @Deprecated",
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Book Value Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Delivery Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Grounding Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset History (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Options\/Attachments\/Fittings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Pricing Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Registration Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Remarketing Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Reservations (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Residual Value (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Specifications (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Collateral Registration Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Fleet Vehicle Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: General Vehicle Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract (FS) @Deprecated \/ Contract: Arrears Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract (FS) @Deprecated \/ Contract: General Contract Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract Template (FS) @Deprecated \/ Contract Template: General Contract Template Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Private Customer @Deprecated \/ Private Customer: Contact Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Private Customer @Deprecated \/ Private Customer: Financials @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Private Customer @Deprecated \/ Private Customer: General Agreement Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Private Customer @Deprecated \/ Private Customer: General Customer Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Private Customer @Deprecated \/ Private Customer: General Partner Settings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Private Customer @Deprecated \/ Private Customer: Private Customer Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Private Customer @Deprecated \/ Private Customer: Relation To Other Partner @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Private Customer @Deprecated \/ Private Customer: Risk Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Quotation Template (FS) @Deprecated \/ Quotation Template: General Quotation Template Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Quote (FS) @Deprecated \/ Quote: General Quote Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Salesperson @Deprecated \/ Salesperson: Bank Account Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Salesperson @Deprecated \/ Salesperson: Contact Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Salesperson @Deprecated \/ Salesperson: General Partner Settings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Salesperson @Deprecated \/ Salesperson: General Salesman Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Salesperson @Deprecated \/ Salesperson: Relation To Other Partner @Deprecated",
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: General Account Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: General Posting Voucher Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: General Reporting Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Accounting (FS) @Deprecated \/ Accounting: GL Posting Voucher Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Book Value Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Delivery Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Grounding Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset History (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Options\/Attachments\/Fittings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Pricing Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Registration Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Remarketing Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Reservations (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Residual Value (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Collateral Registration Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Fleet Vehicle Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: General Vehicle Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract (FS) @Deprecated \/ Contract: Arrears Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract Template (FS) @Deprecated \/ Contract Template: General Contract Template Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Credit Line (FS) @Deprecated \/ Credit Line: Interest rate (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Credit Line (FS) @Deprecated \/ Credit Line: Payment Terms (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Credit Line (FS) @Deprecated \/ Credit Line: Security Terms (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Credit Line (FS) @Deprecated \/ Credit Line: Subsidies (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Bank Account Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Business Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Contact Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Financials (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Agreement Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Dealer Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Partner Settings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Relation To Other Partner @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Risk Information @Deprecated",
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Book Value Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Delivery Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Grounding Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset History (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Options\/Attachments\/Fittings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Pricing Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Registration Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Remarketing Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Reservations (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Residual Value (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Specifications (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Collateral Registration Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Fleet Vehicle Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: General Vehicle Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Bank Account Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Business Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Contact Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Financials (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Agreement Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Dealer Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Partner Settings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Relation To Other Partner @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Risk Information @Deprecated",
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract (FS) @Deprecated \/ Contract: Arrears Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract (FS) @Deprecated \/ Contract: General Contract Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Contract Template (FS) @Deprecated \/ Contract Template: General Contract Template Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Bank Account Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Business Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Contact Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Financials (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Agreement Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Dealer Information @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: General Partner Settings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Relation To Other Partner @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Dealer @Deprecated \/ Dealer: Risk Information @Deprecated",
+            "Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Book Value Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Delivery Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Grounding Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset History (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Options\/Attachments\/Fittings (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Pricing Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Registration Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Remarketing Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Reservations (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Residual Value (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Asset Specifications (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Collateral Registration Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Asset (FS) @Deprecated \/ Asset: Fleet Vehicle Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Fine Handling Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Fuel Card (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: General Service Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Other Services (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Repair & Maintenance (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Replacement Vehicle (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Roadside Assistance (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Roadtax (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Service Contract (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Short Term Rental Information (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Telematics (FS) @Deprecated;Financial Services BO \/ FS - Financial Services \/ Deprecated (Definitions before CDM) \/ Service Product (FS) @Deprecated \/ Service Product: Washing Service (FS) @Deprecated",
+            "... and more"
+        ],
+        "count_unique":33
+    },
+    {
+        "name":"off campus use",
+        "description":"off campus use",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Software Acquisition Model",
+        "description":"Software Acquisition Model",
+        "unique_values":[
+            "customDevelopedSoftware",
+            "standardSoftwareWithoutCustomization",
+            "standardSoftwareWithCustomization",
+            "notDefined"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Type of Source Code Location",
+        "description":"Type of Source Code Location",
+        "unique_values":[
+            "sourceVersionControl",
+            "sourceVersionControl;fileSystem",
+            "supplierPremises",
+            "withinApplication",
+            "fileSystem",
+            "other",
+            "physicalStorage",
+            "fileSystem;withinApplication",
+            "supplierPremises;withinApplication;physicalStorage"
+        ],
+        "count_unique":9
+    },
+    {
+        "name":"List of Source Code URLs",
+        "description":"List of Source Code URLs",
+        "unique_values":[
+            "Mainframe-Endevor",
+            "Java-Git%3B_Mainframe-Endevor",
+            "Mainframe_code_stored_in_the_file_system",
+            "https:\/\/git.daimler.com\/mbfs-america\/EFT\u00a7Source_Code_stored_on_the_file_system_in_the_Mainframe_environment",
+            "https:\/\/git.daimler.com\/mbfs-america\/doc-mgt",
+            "https:\/\/git.daimler.com\/mbfs-america\/TMU-2.0_%26%26_https_\/\/git.daimler.com\/mbfs-america\/TMU-2.0_Batch",
+            "https:\/\/git.daimler.com\/mbfs-america\/CapLoans\u00a7Source_Code_resides_on_the_Mainframe_file_system.",
+            "Application_Server_NDC_File_System",
+            "Java_-_GIT%3B_Mainframe-Endevor",
+            "https:\/\/git.daimler.com\/orgs\/mbfs-america\/teams\/mbfs-customer-access-car\/repositories",
+            "... and more"
+        ],
+        "count_unique":63
+    },
+    {
+        "name":"IT Components",
+        "description":"IT Components",
+        "unique_values":[
+            "Business PC all;CA ACF2 all;DB2 for z\/OS 12.1;Enterprise Cobol for z\/OS 4.2.0;IBM zSeries z14;Rumba Fat Client 10.x;SDS E-Business Server (PGP) 7.8.3;Windows 11;z\/OS - COM-6874 : Duplicate 2.2;z\/OS 2.2",
+            "Apache Log4j 1.x;Business PC all;CA ACF2 all;Corretto 1.8.0.212;DB2 for z\/OS 10.1;DB2 for z\/OS 12.1;Eclipse Rich Client Platform 4.7;Enterprise Cobol for z\/OS 4.2.0;ESP_Red Hat Enterprise Linux 7.7;Google Chrome 64 bit most recent;HTML all;IBM HTTP Server 8.5;IBM Java SDK\/JRE 6.0;IBM zSeries z14;Internet Explorer 11 native;Java Script all;JQuery Framework 1.7.1;Microsoft chromiumbased Edge 64 bit most recent;OpenJDK \/ Open Java Development Kit 8;Rumba Fat Client 10.x;Rumba Mainframe 6.x;Struts MVC Framework all;WebSphere Application Server For Multiplatforms 8.5;Windows 11;x86\/x64 Servers all;XML all;z\/OS - COM-6874 : Duplicate 2.2;z\/OS 2.2",
+            "Business PC all;CA ACF2 all;DB2 for z\/OS 12.1;Enterprise Cobol for z\/OS 4.2.0;IBM zSeries z14;Rumba Fat Client 10.x;Windows 11;z\/OS - COM-6874 : Duplicate 2.2;z\/OS 2.2",
+            "Apache Log4j 1.x;Business PC all;CA ACF2 all;CA- 7 SCHEDULER 3.3;CICS Transaction Server for z\/OS 5.6;DB2 for z\/OS 12.1;EasyTrieve Plus 11.6;Eclipse Rich Client Platform 4.7;Enterprise Cobol for z\/OS 4.2.0;ESP_Red Hat Enterprise Linux 7.7;Google Chrome 64 bit most recent;IBM HTTP Server 9.0;IBM Integration Bus 11;IBM Java SDK\/JRE 6.0;IBM zSeries z14;Internet Explorer 11 native;Microsoft chromiumbased Edge 64 bit most recent;PGP 10.3;Rumba Fat Client 10.x;SDS E-Business Server (PGP) 7.8.3;Struts Framework 1.x;WebSphere Application Server For Multiplatforms 8.5;WebSphere MQ for z\/OS 9.0;Windows 11;x86\/x64 Servers all;z\/OS - COM-6874 : Duplicate 2.2;z\/OS 2.2",
+            "Apache Log4j 1.x;Business PC all;Corretto 1.8.0.212;Eclipse Rich Client Platform 4.7;ESP_Red Hat Enterprise Linux 7.7;IBM Java SDK\/JRE 6.0;WebSphere Application Server For Multiplatforms 8.5;Windows 11;Windows 7 SP1x64;x86\/x64 Servers all",
+            "Apache Log4j 1.x;Axway SecureTransport 5.2.1;Business PC all;CA ACF2 all;DB2 UDB for OS390 6.1;Eclipse Rich Client Platform 4.7;Enterprise Cobol for z\/OS 4.2.0;ESP_Red Hat Enterprise Linux 7.7;GNU Privacy Guard 1.0;Google Chrome 64 bit most recent;IBM HTTP Server 9.0;IBM Integration Bus 10;IBM Java SDK\/JRE 8.0;IBM WebSphere Liberty 8.5;IBM zSeries z14;PostgreSQL;Rumba Fat Client 10.x;WebSphere Application Server For Multiplatforms 8.5.5.13;Windows 11;x86\/x64 Servers all;z\/OS - COM-6874 : Duplicate 2.2;z\/OS 2.2",
+            "Active Directory AuthN & AuthZ EA Service 3.5;Business PC all;Cognos BI Suite 10.2;Corretto 1.8.0.212;Eclipse Rich Client Platform 4.7;ESP_Red Hat Enterprise Linux 7.7;IBM Java SDK\/JRE 8.0;WebSphere Application Server For Multiplatforms 8.5;Windows 11;Windows 7 SP1x64;x86\/x64 Servers all",
+            "Angular 10;Axway SecureTransport;Business PC all;CA Endevor\/DB for CA IDMS 18.05;Eclipse Rich Client Platform 4.7;Enterprise Cobol for z\/OS 4.2.0;ESP_Red Hat Enterprise Linux 7.7;GAS-OIDC Lib - Global Authentication Service (Open ID Connect) Shared Library;Google Chrome 64 bit most recent;HTML all;HTTP\/HTTPS all;IBM HTTP Server 8.5;IBM Integration Bus 11;IBM Java SDK\/JRE 6.0;IBM Java SDK\/JRE 8.0;IBM zSeries z14;Maven 3.3x;Microsoft chromiumbased Edge 64 bit most recent;Nodejs all;NonStop JSP 7;OpenJDK \/ Open Java Development Kit 8;PostgreSQL;Rumba Fat Client 10.x;SDS E-Business Server (PGP) 7.8.3;Spring Boot 2.1.x;Spring Framework 4.3.x;spring-security-ldap 4.0.3;Struts Framework 1.x;Utilities - FTP 4.2;WebSphere Application Server For Multiplatforms 8.5;Windows 11;x86\/x64 Servers all;z\/OS - COM-6874 : Duplicate 2.2;z\/OS 2.2;z\/OS File System (zFS) 2.1",
+            "Angular 11.x;Apache Log4j 2.17.1;Axway SecureTransport;BlackDuck;DBeaver 24.2.x;Eclipse Rich Client Platform 4.7;ESP_Red Hat Enterprise Linux 7.7;GAS-OIDC Lib - Global Authentication Service (Open ID Connect) Shared Library;GitHub;GitHub Actions;Google Chrome 64 bit most recent;Gorilla Service - Kong Gateway as a Service;HTTP\/HTTPS all;IBM DB2 LUW 11.5.x;IBM HTTP Server 9.0;IBM Integration Bus 12.0.x;IBM Java SDK\/JRE 8.0;IBM Websphere Liberty Profile 22.0.X;JDBC all;JMeter 5.3;Microsoft chromiumbased Edge 64 bit most recent;Mozilla Firefox;Postman;SAFARI all;Selenium all;SonarQube;Spring Boot 1.5.x;Spring Framework 4.3.x;spring-boot-starter-log4j2 2.17.x;WAS Liberty 20.0.0.6;Windows 11;x86\/x64 Servers all",
+            "Business PC all;CA ACF2 all;CA- 7 SCHEDULER 3.3;DB2 for z\/OS 12.1;Enterprise Cobol for z\/OS 4.2.0;FTP Server all;IBM zSeries z14;Rumba Fat Client 10.x;Windows 11;z\/OS - COM-6874 : Duplicate 2.2;z\/OS 2.2",
+            "... and more"
+        ],
+        "count_unique":92
+    },
+    {
+        "name":"{{targetFactSheet}}",
+        "description":"{{targetFactSheet}}",
+        "unique_values":[
+            "ITF\/A MF - Mainframe Platform",
+            "ITF\/A JEE v.6.x - Extended Edition;ITF\/A MF-Dist - Mainframe Distributed Hybrid",
+            "ITF\/A JEE v.6.x - Extended Edition",
+            "ITF\/A JEE v.8.x - Extended Edition;ITF\/A MF-Dist - Mainframe Distributed Hybrid",
+            "ITF\/A Dist - Distributed Application Platform;ITF\/A JEE v.6.x - Extended Edition",
+            "GAS-ED - Global Authentication Service - Employees&Dealers;ITF\/A MF - Mainframe Platform;World Communication Platform : SPL-944",
+            "ITF\/A Base Platform - Windows",
+            "ITF\/A Base Platform - Windows;SW1_800909416_MBFS FMO SAP BW PROD_Production;SW1_800909418_MBFS FMO SAP BW PROD HANA DB_Production;SW2_850788778_MBFS CMO SAP BW QA_Test;SW2_850808045_MBFS FMO SAP BW QA HANA DB_Test;SW3_850788138_MBFS FMO SAP BW DEV_Development;SW3_850788139_MBFS FMO SAP BW DEV HANA DB_Development;SWX_800831794_MBFS FMO SAP BW SBX_Test;SWX_800831803_MBFS FMO SAP BW SBX HANA DB_Test",
+            "ITF\/A Lotus Notes v.2",
+            "ITF\/A Dist - Distributed Application Platform;ITF\/A JEE v.6.x - Extended Edition;ITF\/A JEE v.8.x - Extended Edition",
+            "... and more"
+        ],
+        "count_unique":32
+    },
+    {
+        "name":"Software Vendor",
+        "description":"Software Vendor",
+        "unique_values":[
+            "SAP",
+            "Combine Computer Services B.V. (CCS)",
+            "Verizon",
+            "IBM"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Procedure",
+        "description":"Procedure",
+        "unique_values":[
+            "Account Management_Deposit Banking;Account Management_Deposit Banking_MBBS;Customer Management_Banking;Customer Management_Banking_MBBS;FATCA and CRS_Banking;FATCA and CRS_Banking_MBBS;mailings_leasing_finanzierung_insurance_banking_company employees;matching_of_customer_data_consent_between_BW-Bank_MBD_and MB Bank",
+            "Application Analysis & Decision_Credit MBFSE;Application Analysis & Decision_Credit MBFSE (Processor);Application Analysis & Decision_Credit MBR;Company Car for managers_MBCS;Company Car for managers_MBFSE;Company Car for managers_MBR;Company Car for managers_MBR (Processor);Contract management_Flotas MBFSE;Contract management_Flotas MBFSE (Processor);Contract management_Flotas MBR;Data Quality_F&C MBCS;Data Quality_F&C MBFSE;Data Quality_F&C MBFSE (Processor);Data Quality_F&C MBR;Dealer Service Center MBFSE;Dealer Service Center MBFSE (Processor);Dealer Service Center MBR;Debt restructuring_Credit MBFSE;Debt restructuring_Credit MBFSE (Processor);Debt restructuring_Credit MBR;Early Collection _Collections MBFSE;Early Collection Corporate_Collections MBR;Early Collection_Collections MBFSE (Processor);Early Settlement_ATC MBFSE;Early Settlement_ATC MBFSE (Processor);Early Settlement_ATC MBR;Identity theft_Credit MBFSE;Identity theft_Credit MBR;Insolvency Handling Corporate_Collections MBR;Insolvency Handling_Collections MBFSE;Insolvency Handling_Collections MBFSE (Processor);Internal Control System;Legal Collection Corporate_Collections MBR;Legal Collection_Collections MBFSE;Legal Collection_Collections MBFSE (Processor);MBGSM_P_MBM_Application Analysis & Decision_Credit MBFSE;MBGSM_P_MBM_Company Car for managers_MBFSE;MBGSM_P_MBM_Contract management_Flotas MBFSE;MBGSM_P_MBM_Debt restructuring_Credit MBFSE;MBGSM_P_MBM_Early Collection Corporate_Collections MBFSE;MBGSM_P_MBM_Early Settlement_ATC MBFSE;MBGSM_P_MBM_Identity theft_Credit MBFSE;MBGSM_P_MBM_Insolvency Handling Corporate_Collections MBFSE;MBGSM_P_MBM_Legal Collection Corporate_Collections MBFSE;MBGSM_P_MBM_Paper contracts management_Ops MBFSE;MBGSM_P_MBM_Regular and Ad hoc Financial Review Corporate_Credit MBFSE;MBGSM_P_MBM_Video identification Ops_MBFSE;Paper contracts management_Ops MBFSE;Paper contracts management_Ops MBFSE (Processor);Paper contracts management_Ops MBR;Registration in Financial Applications_Marketing MBFSE;Registration in Financial Applications_Marketing MBFSE (Processor);Registration in Financial Applications_Marketing MBR;Registration in Financial Applications_Marketing MBSCS;Regular and Ad hoc Financial Review Corporate_ Credit MBFSE (Processor);Regular and Ad hoc Financial Review Corporate_ Credit MBR;Regular and Ad hoc Financial Review Corporate_Credit MBFSE;Retention_Marketing MBFSE;Retention_Marketing MBFSE (Processor);Retention_Marketing MBR;Video identification_Ops MBFSE;Video identification_Ops MBFSE (Processor);Video identification_Ops MBR",
+            "Claim management (MBIS Benelux);Collections and Litigations: Claim Collections (MBFS BeNeLux \/ MBIS NL);Finance and Administration: Monthly Closing Sales Controlling and Corporate Controlling (MBFS BeLux \/ MBFS NL \/ MBIS NL);Operations: Insurance Contract Management;Vans AS NL Transfer data extended warranty",
+            "Application scoring model_in use_MB Bank_leasing_fleet_branches;Application scoring model_in use_MB Bank_leasing_fleet_branches_MBBSC;Approval & Credit Check_Corporate__leasing_financing;Approval & Credit Check_Corporate__leasing_financing_fleet_CharterWay;Approval & Credit Check_Corporate__leasing_financing_fleet_CharterWay_MBBS;Approval & Credit Check_Corporate__leasing_financing_fleet_CharterWay_MBBSC;Approval & Credit Check_Retail_leasing_financing_fleet_CharterWay;Approval & Credit Check_Retail_leasing_financing_fleet_CharterWay_MBBS;Approval & Credit Check_Retail_leasing_financing_fleet_CharterWay_MBBSC;Betrugspr\u00e4vention\/Fraud Detection and Prevention zur Identifikation betr\u00fcgerischer Kunden;Corporate Watchlist Process (Collections);Corporate Watchlist Process_MBBSC;Credit GETONE;Credit Risk Digital_Mercedes-Benz_Mobility_AG;Default Process_leasing_financing_fleet_CharterWay;Default Process_leasing_financing_fleet_CharterWay_MBBS;Default Process_leasing_financing_fleet_CharterWay_MBBSC;Default Process_leasing_financing_fleet_MBBS;Default Process_leasing_financing_fleet_MBBSC;Development of risk classification proceedings_MB Bank_leasing_fleet_branches;Early Collections_leasing_financing_company employees_CharterWay_Italy_Mercedes-Benz_Mobility_AG;Fraud Prevention zur Identifikation betr\u00fcgerischer Kunden;Fraud Prevention zur Identifikation betr\u00fcgerischer Kunden [planned];Portfolio scoring model_in use_MB Bank_leasing_fleet;Portfolio scoring model_in use_MB Bank_leasing_fleet_MBBSC;Provisioning of audit data_MB Bank (Pr\u00fcfdatenbereitstellung);Risk Based Collections model_in use_MB Bank_leasing",
+            "Order and financial data matching_leasing_financing_CharterWay_fleet;Order and financial data matching_leasing_financing_CharterWay_fleet_MBBS;Order and financial data matching_leasing_financing_CharterWay_fleet_MBBSC",
+            "13-RECORDS OF LEASEES AND GUARANTORS WHO ARE NATURAL PERSONS;14-CREDIT ASSESSMENT FOR POTENTIAL BUSINESS PARTNERS;41-Credit Decision Process;Analyze economic documents_athlon car lease portugal;Approval & Credit Check_Corporate__leasing_financing;Approval & Credit Check_Corporate__leasing_financing_fleet_CharterWay;Approval & Credit Check_Corporate__leasing_financing_fleet_CharterWay_MBBS;Approval & Credit Check_Corporate__leasing_financing_fleet_CharterWay_MBBSC;Approval & Credit Check_Retail_leasing_financing_fleet_CharterWay;Approval & Credit Check_Retail_leasing_financing_fleet_CharterWay_MBBS;Approval & Credit Check_Retail_leasing_financing_fleet_CharterWay_MBBSC;Check collateral_athlon car lease portugal;Check customer overall rating_athlon car lease portugal;Collateral Management Process;Collateral Management Process_MBBS;Collateral Management Process_MBBSC;Contract Management_fleet_MBBSC;Corporate Credit Decision Process _Mercedes-Benz Mobility AG;Corporate Watchlist Process (Collections);Corporate Watchlist Process_MBBSC;Credit Approval Process_GCRMM Europe_ Regulated Markets_Mercedes-Benz_Mobility_AG;Credit Decision Process (Corporate);Credit Decision Process - Regulated Markets, GCRMM CEE_APAC_ Mercedes-Benz Mobility AG;Credit Decision Process, CEE_ APAC _Mercedes_Benz_Mobility_AG;Credit Risk Digital_Mercedes-Benz_Mobility_AG;Credit_Service and Implementation of the Contract with the Client;Credit_services for Athlon_credit analysis;Credit_services for Athlon_HQ reporting;Data Subject Access Requests, Deletion, and Portability;Dealer  Corporate Customers Credit Process MBFSI;Dealer Credit Process MBLI;Dealer Data Outbound Delivery_Wholesale_DMO\/MBFS;Dealer Data Outbound Delivery_Wholesale_MBB (incl. BR ES\/FR);Dealer Data Outbound Delivery_Wholesale_MBM\/MBFS;Dealer Data Outbound Delivery_Wholesale_Mercedes-Benz Bank (incl. BR ES\/FR);Early Collections_fleet;Early Collections_fleet_MBBSC;Early Collections_leasing_financing_company employees_CharterWay_Germany;Early Collections_leasing_financing_company employees_CharterWay_Germany_MBBSC;Early Collections_leasing_financing_company employees_CharterWay_Germay;Gestion de la tra\u00e7abilit\u00e9 des \u00e9changes;Guarantees_athlon car lease spain;Hand Over lease application_athlon car lease spain;H\u00e4fi_Auswertung finanzwirtsch. Daten und Bereitstellung MBD;Internal Audit Activities;Kreditbeantragung H\u00e4ndler- & Gesch\u00e4ftskundengesch\u00e4ft_MBFS_CH;Kreditbeantragung im H\u00e4ndler- und Gesch\u00e4ftskundengesch\u00e4ft;Kreditbeantragung im H\u00e4ndler- und Gesch\u00e4ftskundengesch\u00e4ft_MB-Bank;Kunden Management;Late Collections_leasing_financing_company employees_fleet_CharterWay_Germany_MBBSC;Late Collections_leasing_financing_company employess_fleet_CharterWay_Germany;Marktfolge_Kredit_Kreditpr\u00fcfung_Athlon-DE;MBGSM_P_MBM_Credit Decision Process (Credit Management Europe)_Mercedes-Benz Mobility AG;MBGSM_P_MBM_Regular and Ad hoc Financial Review Corporate_Credit MBFSE;Operations: Credit Decision-making (MBFS BeNeLux);Prospects Management_MBAV Portugal;Prospects Management_MBAV Portugal (P009363);Prospects Management_MBFS Portugal;Provision of Credit Decision Tool_global: Credit Risk Connect!_Mercedes-Benz_Mobility_AG;Regular and Ad hoc Financial Review Corporate_ Credit MBFSE (Processor);Regular and Ad hoc Financial Review Corporate_ Credit MBR;Regular and Ad hoc Financial Review Corporate_Credit MBFSE;Service Components Service Card _fleet_CharterWay_leasing_company employees;Steering of team Credit Corporate_Service Center Berlin;Wholesale Underwriting",
+            "Application scoring model_in use_MB Bank_leasing_fleet_branches;Application scoring model_in use_MB Bank_leasing_fleet_branches_MBBSC;Development of risk classification proceedings_MB Bank_leasing_fleet_branches;Fraud Prevention zur Identifikation betr\u00fcgerischer Kunden;Fraud Prevention zur Identifikation betr\u00fcgerischer Kunden [planned];Portfolio scoring model_in use_MB Bank_leasing_fleet;Portfolio scoring model_in use_MB Bank_leasing_fleet_MBBSC;Provisioning of audit data_MB Bank (Pr\u00fcfdatenbereitstellung)",
+            "Application scoring model_in use_MB Bank_leasing_fleet_branches;Application scoring model_in use_MB Bank_leasing_fleet_branches_MBBSC;Approval & Credit Check_Corporate__leasing_financing;Approval & Credit Check_Corporate__leasing_financing_fleet_CharterWay;Approval & Credit Check_Corporate__leasing_financing_fleet_CharterWay_MBBS;Approval & Credit Check_Corporate__leasing_financing_fleet_CharterWay_MBBSC;Approval & Credit Check_Retail_leasing_financing_fleet_CharterWay;Approval & Credit Check_Retail_leasing_financing_fleet_CharterWay_MBBS;Approval & Credit Check_Retail_leasing_financing_fleet_CharterWay_MBBSC;AS Reporting zu Leasing-, Finanzierungsvertr\u00e4gen;AS Reporting zu Leasing-, Finanzierungsvertr\u00e4gen_MBBSC;Be Flexible;Claims Management_Insurance_Kaufpreisschutz Bundle;Claims Management_Insurance_Kaufpreisschutz_MBBSC;Collateral Management Process;Collateral Management Process_MBBS;Collateral Management Process_MBBSC;complaint management_central_BoM_MBBS;complaint management_central_BoM_MBBSC;Contract and Quotation Management_insurance_bundle products;Contract and Quotation Management_insurance_bundle products_MBBS;Contract and Quotation Management_insurance_bundle products_MBBSC;Contract Management and Quotation_insurance_standalone_MBBSC;Corporate Watchlist Process (Collections);Corporate Watchlist Process_MBBSC;Credit Risk Digital_Mercedes-Benz_Mobility_AG;Customer Portal DE;Dealer Data Contract Handling_Wholesale_DMO\/MBFS;Dealer Data Contract Handling_Wholesale_MBB (incl. Branches ES\/FR);Dealer Data Contract Handling_Wholesale_MBBSC;Dealer Data Contract Handling_Wholesale_MBM\/MBFS;Dealer Data Contract Handling_Wholesale_Mercedes-Benz Bank (incl. Branches ES\/FR);Dealer Data Contract Handling_Wholesale_Mercedes-Benz Banking Service GmbH;Development of risk classification proceedings_MB Bank_leasing_fleet_branches;Early Collections_fleet;Early Collections_leasing_financing_company employees_CharterWay_Germany;Early Collections_leasing_financing_company employees_CharterWay_Germany_MBBSC;Early Collections_leasing_financing_company employees_CharterWay_Germay;Fraud Prevention zur Identifikation betr\u00fcgerischer Kunden [planned];Invoicing_financing_leasing_companies;Late Collections_leasing_financing_company employees_fleet_CharterWay_Germany_MBBSC;Late Collections_leasing_financing_company employess_fleet_CharterWay_Germany;Leasing_FC.1.12_OneERP_C_Mercedes-Benz Group AG;mailings_leasing_finanzierung_insurance_banking_company employees;Manufacturing Leasing Process;Marketing_Personalisierte Kommunikation_MBLD4MBB;matching_of_customer_data_consent_between_BW-Bank_MBD_and MB Bank;Operational Accounting_Portfoliobuchhaltung;Order and financial data matching_leasing_financing_CharterWay_fleet;Order and financial data matching_leasing_financing_CharterWay_fleet_MBBS;Order and financial data matching_leasing_financing_CharterWay_fleet_MBBSC;personalizedURL_retention_early renewal_welcome_leasing_financing_Germany;Portfolio scoring model_in use_MB Bank_leasing_fleet;Portfolio scoring model_in use_MB Bank_leasing_fleet_MBBSC;Prevention of money laundering, fraud and terrorism funding_MB-Bank;Prevention of money laundering, fraud and terrorism funding_MB-Bank_MBBS;Prevention of money laundering, fraud and terrorism funding_MB-Bank_MBBSC;Provision of Credit Decision Tool_global: Credit Risk Connect!_Mercedes-Benz_Mobility_AG;Provisioning of audit data_MB Bank (Pr\u00fcfdatenbereitstellung);Regulatory Reporting_MB Bank Gruppe;Reporting and Strucuring of Asset Backed Securities  in Germany. Currently only for financing contracts;Request for information, attachment and transfer order;Sampling inspection_legitimation_MB-Bank;Service Center Management (Steuerung);Service Center Steuerung;Steering company employees business_MB-Bank_MBBSC;Usage and maintanance of a data base for standard and ad hoc reporting MB Bank;Vehicle Return and Valuation Process and sales_MB-Bank;Vehicle Return and Valuation Process and sales_MB-Bank_MBBSC;Whole Sale_financing_Branches Spain and France",
+            "Analyse de la performance des analystes;Analyse des PAR : Plan d'Action Reseau - VP;Analyse des PAR : Plan d'Action Reseau - VUL;Analyse du co\u00fbt du risque;Analyse et d\u00e9cision du dossier de financement;Animation et pilotage des forces commerciales;Comptabilisation et paiement des commissions \u00e0 verser aux dealers;Declaration des Bonus \u00e0 l'administration;Enqu\u00eate t\u00e9l\u00e9phonique pour comprendre le comportement des clients non renouvelants;Enregistrement des v\u00e9hicules \u00e9lligibles \u00e0 la reprise constructeur - GPA;Fourniture d'analyse, de reporting et d'\u00e9tudes statistiques pour l'ensemble des services de la DCM;Gestion de l'accompagnement du r\u00e9seau et des ZM sur les demandes de financement;Gestion de la communication avec les dealers : MBFS, Mobifleet et MBRent;Gestion de la Lutte contre le blanchiment et le financement du terrorisme;Gestion de la vie du contrat - A SUPPRIMER;Gestion des amendes clients;Gestion des cessions de cr\u00e9ance;Gestion des contr\u00f4les;Gestion des encours r\u00e9glementaires - A SUPPRIMER;Gestion des fins de contrats;Gestion des journaux de connexion, logs;Gestion des mises \u00e0 jour des donn\u00e9es BP;Lutte contre la fraude;Segmentation marketing;Serenity Phase Test 150 - A SUPPRIMER;Surveillance de la mutation des cartes grises",
+            "Application scoring model_in use_MB Bank_leasing_fleet_branches;Application scoring model_in use_MB Bank_leasing_fleet_branches_MBBSC;Portfolio scoring model_in use_MB Bank_leasing_fleet;Portfolio scoring model_in use_MB Bank_leasing_fleet_MBBSC",
+            "... and more"
+        ],
+        "count_unique":36
+    },
+    {
+        "name":"Business Square",
+        "description":"Business Square",
+        "unique_values":[
+            "BSQ for 'BP055.060.040 Financial transaction' at '525';BSQ for 'BP055.060.040 Financial transaction' at '858';BSQ for 'BP055.080.010 Pre-term activities' at '525'",
+            "BSQ for 'BP010.030.010 Customer communications' at '525';BSQ for 'BP010.030.010 Customer communications' at '578';BSQ for 'BP010.030.010 Customer communications' at '858';BSQ for 'BP055.020.020 Handling of financial changes' at '525';BSQ for 'BP055.020.020 Handling of financial changes' at '578';BSQ for 'BP055.020.020 Handling of financial changes' at '858';BSQ for 'BP055.020.120 Billing and statement handling' at '525';BSQ for 'BP055.020.120 Billing and statement handling' at '578';BSQ for 'BP055.020.120 Billing and statement handling' at '858'",
+            "BSQ for 'BP010.010.010 Local market research' at '525';BSQ for 'BP010.010.050 Dealer satisfaction survey' at '525';BSQ for 'BP010.020.010 Product planning and review' at '525';BSQ for 'BP010.020.020 Product definition and approval' at '525';BSQ for 'BP010.020.030 Product marketing' at '525';BSQ for 'BP010.020.040 Product training' at '525';BSQ for 'BP010.020.050 Campaign development' at '525';BSQ for 'BP010.030.010 Customer communications' at '525';BSQ for 'BP010.030.020 Event management' at '525';BSQ for 'BP010.040.010 Regular dealer sales meeting' at '525';BSQ for 'BP010.040.090 External partner relationship management' at '525';BSQ for 'BP010.050.010 Creation of business partner profile' at '525'",
+            "BSQ for 'BP055.010.080 Commission, subsidy and incentive handling' at '525';BSQ for 'BP055.010.080 Commission, subsidy and incentive handling' at '578';BSQ for 'BP055.010.080 Commission, subsidy and incentive handling' at '858';BSQ for 'BP055.020.120 Billing and statement handling' at '525';BSQ for 'BP055.020.120 Billing and statement handling' at '578';BSQ for 'BP055.020.120 Billing and statement handling' at '858';BSQ for 'BP090.010.010 Claiming of  open items\/amounts due' at '525';BSQ for 'BP090.010.010 Claiming of  open items\/amounts due' at '578';BSQ for 'BP090.010.010 Claiming of  open items\/amounts due' at '858';BSQ for 'BP090.020.015 Authorization and posting of new business payments' at '525';BSQ for 'BP090.020.015 Authorization and posting of new business payments' at '578';BSQ for 'BP090.020.015 Authorization and posting of new business payments' at '858'",
+            "BSQ for 'BP055.010.090 Contract activation' at '525';BSQ for 'BP055.010.090 Contract activation' at '858'",
+            "BSQ for 'BP055.010.010 Customer qualification' at '525';BSQ for 'BP055.010.010 Customer qualification' at '858'",
+            "BSQ for 'BP010.030.010 Customer communications' at '525';BSQ for 'BP010.030.010 Customer communications' at '578';BSQ for 'BP010.030.010 Customer communications' at '858'",
+            "BSQ for 'BP010.030.020 Event management' at '525'",
+            "BSQ for 'BP010.010.050 Dealer satisfaction survey' at '525';BSQ for 'BP010.010.050 Dealer satisfaction survey' at '858'",
+            "BSQ for 'BP090.010.100 Enquiries about incoming payments' at '858';BSQ for 'BP090.030.010 Asset acquisition posting' at '525';BSQ for 'BP090.030.010 Asset acquisition posting' at '578'",
+            "... and more"
+        ],
+        "count_unique":89
+    },
+    {
+        "name":"Projects",
+        "description":"Projects",
+        "unique_values":[
+            "MBM OneHouse Europe \/ MBM OneHouse Italy;My Future Bank \/ MFB Sundowns \/ MFB Sundown 2028",
+            "Model D Blueprint EU \/ Model D BluePrint 1.0 \/ Model D Blueprint  - Germany 1.0 \/ Model D Local Germany 1.0",
+            "My Future Bank \/ MFB Sundowns \/ MFB Sundown 2024",
+            "My Future Bank \/ MFB Sundowns \/ MFB Sundown 2026",
+            "Model D Blueprint EU \/ Model D BluePrint 1.0 \/ Model D Blueprint  - Germany 1.0;Model D Blueprint EU \/ Model D BluePrint 1.0 \/ Model D Blueprint  - Germany 1.0 \/ Model D Local Germany 1.0;My Future Bank \/ MFB Sundowns \/ MFB Sundown 2027",
+            "ITS\/E Standardization \/ 3. Standardization Out of Scope",
+            "ITS\/E Projects \/ Europe FMO Transformation \/ FMO Sweden\/Denmark",
+            "My Future Bank \/ MFB Sundowns \/ MFB Sundown 2025",
+            "Default MoC Europe",
+            "MBM OneHouse Europe \/ MBM OneHouse Portugal",
+            "... and more"
+        ],
+        "count_unique":18
+    },
+    {
+        "name":"Application Groups",
+        "description":"Application Groups",
+        "unique_values":[
+            "BackupSurvey;IT Divisions \/ ITF \/ Blueprint Classification \/ Business Process Layer \/ BC_Contract Management;IT Divisions \/ ITF \/ Blueprint Classification \/ Foundation\/Supporting Layer \/ Business Sub-Layer \/ BC_Accounting;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Lease;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Retail;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA",
+            "BackupSurvey;IT Divisions \/ ITF \/ Blueprint Classification \/ Access\/Interaction Layer \/ BC_Dealer Access;IT Divisions \/ ITF \/ Blueprint Classification \/ Business Process Layer \/ BC_Contract Management;IT Divisions \/ ITF \/ Blueprint Classification \/ Foundation\/Supporting Layer \/ Business Sub-Layer \/ BC_Accounting;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Retail;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Wholesale;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA",
+            "IT Divisions \/ ITF \/ Blueprint Classification \/ Foundation\/Supporting Layer \/ Business Sub-Layer \/ BC_Credit Lines\/Rating;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Wholesale;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA;TOM-Files Survey",
+            "BackupSurvey;IT Divisions \/ ITF \/ Blueprint Classification \/ Foundation\/Supporting Layer \/ Business Sub-Layer \/ BC_EPM\/Controlling;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Retail;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA;TOM-Files Survey",
+            "BackupSurvey;IT Divisions \/ ITF \/ Blueprint Classification \/ Access\/Interaction Layer \/ BC_Dealer Access;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Lease;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Retail;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Wholesale;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA;ITM applications (CRM)",
+            "BackupSurvey;IT Divisions \/ ITF \/ Blueprint Classification \/ Foundation\/Supporting Layer \/ Business Sub-Layer \/ BC_Credit Lines\/Rating;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Lease;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Retail;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_MEX;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA",
+            "IT Divisions \/ ITF \/ Blueprint Classification \/ Business Process Layer \/ BC_Contract Management;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Lease;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Retail;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Wholesale;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA;TOM-Files Survey",
+            "BackupSurvey;IT Divisions \/ ITF \/ Blueprint Classification \/ Business Process Layer \/ BC_Contract Management;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Lease;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Retail;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA",
+            "BackupSurvey;IT Divisions \/ ITF \/ Blueprint Classification \/ Foundation\/Supporting Layer \/ Business Sub-Layer \/ BC_Other;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Wholesale;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA",
+            "IT Divisions \/ ITF \/ Blueprint Classification \/ Foundation\/Supporting Layer \/ Business Sub-Layer \/ BC_Risk;IT Divisions \/ ITF \/ Blueprint Classification \/ Foundation\/Supporting Layer \/ Business Sub-Layer \/ BC_Treasury & Payments;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Lease;IT Divisions \/ ITF \/ US_Analysis \/ LOB_Retail;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_CAN;IT Divisions \/ ITF \/ US_Analysis \/ Mkt_USA",
+            "... and more"
+        ],
+        "count_unique":94
+    },
+    {
+        "name":"Blueprint App",
+        "description":"Blueprint App",
+        "unique_values":[
+            "AVS - Achsenversandsteuerungs-System",
+            "CRIP - 032 - Credit Risk Information Pool - DE",
+            "DWH MBFS FR - DATAWAREHOUSE MBFS FR",
+            "EAI-SPL - 032 - EAI-Scoring Processing and LGD - DE",
+            "EFF - 032 - eFinanceFactory - DE",
+            "Ernie - Ernie",
+            "Galaxi ZA - Galaxi MPC ZA",
+            "Insurance  MBFSNL - Insurance POS website MBFS NL",
+            "MAKS - 032 - MAKS - DE",
+            "Informa - Informa",
+            "... and more"
+        ],
+        "count_unique":16
+    },
+    {
+        "name":"Parent",
+        "description":"Parent",
+        "unique_values":[
+            "Blueprint Template: AutolineDMS - Autoline Dealer Management System 8.35.x",
+            "Phoenix.BPS - Phoenix Business Partner System 6.x",
+            "Phoenix.CMS - Phoenix Contract Management System 6.8",
+            "Phoenix.DMS - Phoenix Decision Management System 6.8",
+            "PIA@MBVD - 848 PIA MBVS und MBIS - DE 7.50",
+            "Empty"
+        ],
+        "count_unique":6
+    },
+    {
+        "name":"Children",
+        "description":"Children",
+        "unique_values":[
+            "CRC TR - Credit Risk Connect - V - TR Default",
+            "Phoenix.BPS-V-ES - Phoenix Business Partner System -V- MBFS ES 6.x;Phoenix.BPS-V-FR - Phoenix Business Partner System -V- MBFS FR 6.8;Phoenix.BPS-V-IT - Phoenix Business Partner System -V- MBFS IT 6.6;Phoenix.BPS-V-UK - Phoenix Business Partner System -V- MBFS UK 6.x",
+            "PTB - Programmteilebedarf - I - 065 1.0",
+            "Empty",
+            "WIN FI SETUP 19.00"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Date of EPA",
+        "description":"Date of EPA",
+        "unique_values":[
+            "2020-12-03",
+            "2021-06-14",
+            "2023-02-27",
+            "2024-04-22",
+            "2021-07-12",
+            "2024-06-06",
+            "2024-06-10",
+            "2024-05-06",
+            "2020-10-22",
+            "2021-05-25",
+            "... and more"
+        ],
+        "count_unique":54
+    },
+    {
+        "name":"Archer Deep Link",
+        "description":"Archer Deep Link",
+        "unique_values":[
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d806450%26moduleId%3d70",
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d806446%26moduleId%3d70",
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d806524%26moduleId%3d70",
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d806439%26moduleId%3d70",
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d806534%26moduleId%3d70",
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d806514%26moduleId%3d70",
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d807289%26moduleId%3d70",
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d806507%26moduleId%3d70",
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d806453%26moduleId%3d70",
+            "https:\/\/agp.es.corpintra.net\/RSAarcher\/default.aspx?requestUrl=..%2fGenericContent%2fRecord.aspx%3fid%3d806444%26moduleId%3d70",
+            "... and more"
+        ],
+        "count_unique":67
+    },
+    {
+        "name":"Application using this Module",
+        "description":"Application using this Module",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"EPA Method",
+        "description":"EPA Method",
+        "unique_values":[
+            "exception",
+            "epaReport",
+            "confirmationStatement",
+            "alternativePentestReport"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Created At",
+        "description":"Created At",
+        "unique_values":[
+            "2023-06-04T00:00:00.000",
+            "2023-11-22T00:00:00.000",
+            "2023-10-26T00:00:00.000"
+        ],
+        "count_unique":3
+    },
+    {
+        "name":"Hosted Applications",
+        "description":"Hosted Applications",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Hosting Description",
+        "description":"Hosting Description",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Hosting Type",
+        "description":"Hosting Type",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Hosting Type (CMDB)",
+        "description":"Hosting Type (CMDB)",
+        "unique_values":[
+            "notDefined"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"Level",
+        "description":"Level",
+        "unique_values":[
+            1,
+            2
+        ],
+        "count_unique":2
+    },
+    {
+        "name":"Products",
+        "description":"Products",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Regular synchronisation with another global system \u2013 Comment",
+        "description":"Regular synchronisation with another global system \u2013 Comment",
+        "unique_values":[
+            "EUC resides on Regional File Share and depend on Access management of File Share. EUC can only be accessed after logon to client PC which authenticates against Global Active Directory",
+            "ABS Suite is accessed via VCA or Jump Server",
+            "No User Access is allowed to this application, it is functioning as a print server for a MF print job",
+            "For Business Users",
+            "Use of MBFS IAM EMEA Sync",
+            "System was sundowned in August, 2024.",
+            "System was sundowned in September, 2024.",
+            "MBFS IAM EMEA Sync",
+            "BeMa",
+            "MBB specific-process",
+            "... and more"
+        ],
+        "count_unique":16
+    },
+    {
+        "name":"Data Source",
+        "description":"Data Source",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Program X",
+        "description":"Program X",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Sales Regions",
+        "description":"Sales Regions",
+        "unique_values":[
+            "Overseas",
+            "NAFTA",
+            "Europe",
+            "China;Europe;Overseas"
+        ],
+        "count_unique":4
+    },
+    {
+        "name":"Target Architecture",
+        "description":"Target Architecture",
+        "unique_values":[
+            "Target Architecture"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"Sales Segmentation",
+        "description":"Sales Segmentation",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"Other tags",
+        "description":"Other tags",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"User ID Management",
+        "description":"User ID Management",
+        "unique_values":[
+            "useWhoIsWhoID",
+            "no",
+            "noUseWhoIsWhoID",
+            "other",
+            "manualComparisonWhoIsWho"
+        ],
+        "count_unique":5
+    },
+    {
+        "name":"Utilization DTAG\/ DTFS",
+        "description":"Utilization DTAG\/ DTFS",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"User Management Exception (UME)",
+        "description":"User Management Exception (UME)",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"UME Valid Until",
+        "description":"UME Valid Until",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"UME Comment",
+        "description":"UME Comment",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"SSO Provider",
+        "description":"SSO Provider",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    },
+    {
+        "name":"ServiceNow Business Criticality",
+        "description":"ServiceNow Business Criticality",
+        "unique_values":[
+            "notDefined"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"Stand Alone",
+        "description":"Stand Alone",
+        "unique_values":[
+            "yes"
+        ],
+        "count_unique":1
+    },
+    {
+        "name":"SSO Status",
+        "description":"SSO Status",
+        "unique_values":[
+
+        ],
+        "count_unique":0
+    }
+]
