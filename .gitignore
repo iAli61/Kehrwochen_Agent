@@ -2,3 +2,5 @@ mlruns
 mlartifacts
 myapp
 .env
+*.png
+interactive_dependency_network.html
